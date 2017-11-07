@@ -1,0 +1,17 @@
+target ‘TaiLife’ do
+pod 'JPush'
+#pod 'AFNetworking'
+pod 'SVProgressHUD','~> 1.1.3'
+pod 'AFNetworking','~> 2.6.0'
+pod 'IQKeyboardManager'
+pod 'Masonry', '~> 0.6'
+pod 'SDWebImage', '~> 3.7.3'
+pod 'MJRefresh'
+pod 'MWPhotoBrowser'
+#pod 'XMLDictionary', '~> 1.4'
+pod 'HMSegmentedControl'
+pod 'ImagePickerSheetViewController'
+pod 'AMapLocation'
+pod 'SDAutoLayout', '~> 2.1.3'
+end
+    
