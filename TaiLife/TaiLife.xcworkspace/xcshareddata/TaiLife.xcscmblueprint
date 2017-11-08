@@ -1,30 +1,30 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0A1BD9F9C903C79FE1C1FB588181937375AED15C",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "78EC9651918C815AA2819F8996B2F611156AAEA1",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "2D00FB355E1A3B2B98EDB7CA308B173F5E6D29B1" : 9223372036854775807,
-    "0A1BD9F9C903C79FE1C1FB588181937375AED15C" : 9223372036854775807
+    "78EC9651918C815AA2819F8996B2F611156AAEA1" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EC6AAD40-D931-4CBE-A0FF-4C3CC10C2E93",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "2D00FB355E1A3B2B98EDB7CA308B173F5E6D29B1" : "ZKGJ\/",
-    "0A1BD9F9C903C79FE1C1FB588181937375AED15C" : "TaiLifeApp\/"
+    "78EC9651918C815AA2819F8996B2F611156AAEA1" : "TaiLifeApp\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "TaiLife",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TaiLife\/TaiLife.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Andy-technology-software\/TaiLifeApp.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A1BD9F9C903C79FE1C1FB588181937375AED15C"
-    },
-    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.27:10101\/r\/ZKGJ.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2D00FB355E1A3B2B98EDB7CA308B173F5E6D29B1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Andy-technology-software\/TaiLifeApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "78EC9651918C815AA2819F8996B2F611156AAEA1"
     }
   ]
 }

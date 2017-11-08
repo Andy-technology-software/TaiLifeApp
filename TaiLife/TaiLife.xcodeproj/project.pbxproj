@@ -11,15 +11,6 @@
 		2105D72E1FABF2FF001A8147 /* 返回-白@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2105D72A1FABF2FF001A8147 /* 返回-白@3x.png */; };
 		2105D72F1FABF2FF001A8147 /* 返回-蓝@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2105D72B1FABF2FF001A8147 /* 返回-蓝@2x.png */; };
 		2105D7301FABF2FF001A8147 /* 返回-蓝@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2105D72C1FABF2FF001A8147 /* 返回-蓝@3x.png */; };
-		2136D61E1FB15B8C007A31F2 /* BussinessmenIndex0Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136D61D1FB15B8C007A31F2 /* BussinessmenIndex0Model.m */; };
-		2136D6241FB16247007A31F2 /* BussinessmenIndex0TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136D6231FB16247007A31F2 /* BussinessmenIndex0TableViewCell.m */; };
-		2136D6271FB18035007A31F2 /* BussinessmenIndex1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136D6261FB18035007A31F2 /* BussinessmenIndex1TableViewCell.m */; };
-		2136D62A1FB189CE007A31F2 /* BussinessmenIndex2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136D6291FB189CE007A31F2 /* BussinessmenIndex2TableViewCell.m */; };
-		2136D62D1FB18A1A007A31F2 /* BussinessmenIndex2Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136D62C1FB18A1A007A31F2 /* BussinessmenIndex2Model.m */; };
-		2136D6301FB19EBC007A31F2 /* BussinessmenIndex3TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136D62F1FB19EBC007A31F2 /* BussinessmenIndex3TableViewCell.m */; };
-		2136D6331FB19FC1007A31F2 /* BussinessmenIndex3Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136D6321FB19FC1007A31F2 /* BussinessmenIndex3Model.m */; };
-		2136D6361FB1A238007A31F2 /* BussinessmenIndex4Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136D6351FB1A238007A31F2 /* BussinessmenIndex4Model.m */; };
-		2136D6391FB1A2A1007A31F2 /* BussinessmenIndex4TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136D6381FB1A2A1007A31F2 /* BussinessmenIndex4TableViewCell.m */; };
 		213F073A1FA96C500066FE14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 213F07391FA96C4F0066FE14 /* main.m */; };
 		213F073D1FA96C510066FE14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 213F073C1FA96C510066FE14 /* AppDelegate.m */; };
 		213F07451FA96C530066FE14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 213F07441FA96C530066FE14 /* Assets.xcassets */; };
@@ -116,6 +107,15 @@
 		21F91BB71FA9AC4300D8F072 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F91BB61FA9AC4300D8F072 /* CoreMotion.framework */; };
 		21F91BB91FA9AC5700D8F072 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F91BB81FA9AC5700D8F072 /* Foundation.framework */; };
 		7124B3C25C38EA91F73A592E /* libPods-TaiLife.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CD03877B2E4E9E9A2BE8A5 /* libPods-TaiLife.a */; };
+		F836C4D11FB284F20052A8E2 /* BussinessmenIndex0Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F836C4CA1FB284F20052A8E2 /* BussinessmenIndex0Model.m */; };
+		F836C4D21FB284F20052A8E2 /* BussinessmenIndex2Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F836C4CC1FB284F20052A8E2 /* BussinessmenIndex2Model.m */; };
+		F836C4D31FB284F20052A8E2 /* BussinessmenIndex3Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F836C4CE1FB284F20052A8E2 /* BussinessmenIndex3Model.m */; };
+		F836C4D41FB284F20052A8E2 /* BussinessmenIndex4Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F836C4D01FB284F20052A8E2 /* BussinessmenIndex4Model.m */; };
+		F836C4E41FB285950052A8E2 /* BussinessmenIndex0TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F836C4DB1FB285950052A8E2 /* BussinessmenIndex0TableViewCell.m */; };
+		F836C4E51FB285950052A8E2 /* BussinessmenIndex1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F836C4DD1FB285950052A8E2 /* BussinessmenIndex1TableViewCell.m */; };
+		F836C4E61FB285950052A8E2 /* BussinessmenIndex2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F836C4DF1FB285950052A8E2 /* BussinessmenIndex2TableViewCell.m */; };
+		F836C4E71FB285950052A8E2 /* BussinessmenIndex3TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F836C4E11FB285950052A8E2 /* BussinessmenIndex3TableViewCell.m */; };
+		F836C4E81FB285950052A8E2 /* BussinessmenIndex4TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F836C4E31FB285950052A8E2 /* BussinessmenIndex4TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,24 +140,6 @@
 		2105D72A1FABF2FF001A8147 /* 返回-白@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回-白@3x.png"; sourceTree = "<group>"; };
 		2105D72B1FABF2FF001A8147 /* 返回-蓝@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回-蓝@2x.png"; sourceTree = "<group>"; };
 		2105D72C1FABF2FF001A8147 /* 返回-蓝@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回-蓝@3x.png"; sourceTree = "<group>"; };
-		2136D61C1FB15B8C007A31F2 /* BussinessmenIndex0Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BussinessmenIndex0Model.h; path = ../../../Desktop/ZKGJ/ZKGJ/ZKApp/Controllers/Information/BussinessmenIndex0Model.h; sourceTree = "<group>"; };
-		2136D61D1FB15B8C007A31F2 /* BussinessmenIndex0Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BussinessmenIndex0Model.m; path = ../../../Desktop/ZKGJ/ZKGJ/ZKApp/Controllers/Information/BussinessmenIndex0Model.m; sourceTree = "<group>"; };
-		2136D6221FB16247007A31F2 /* BussinessmenIndex0TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BussinessmenIndex0TableViewCell.h; path = ../../../Desktop/ZKGJ/ZKGJ/ZKApp/Controllers/Information/BussinessmenIndex0TableViewCell.h; sourceTree = "<group>"; };
-		2136D6231FB16247007A31F2 /* BussinessmenIndex0TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BussinessmenIndex0TableViewCell.m; path = ../../../Desktop/ZKGJ/ZKGJ/ZKApp/Controllers/Information/BussinessmenIndex0TableViewCell.m; sourceTree = "<group>"; };
-		2136D6251FB18035007A31F2 /* BussinessmenIndex1TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BussinessmenIndex1TableViewCell.h; path = ../../../Desktop/ZKGJ/ZKGJ/ZKApp/Controllers/Information/BussinessmenIndex1TableViewCell.h; sourceTree = "<group>"; };
-		2136D6261FB18035007A31F2 /* BussinessmenIndex1TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BussinessmenIndex1TableViewCell.m; path = ../../../Desktop/ZKGJ/ZKGJ/ZKApp/Controllers/Information/BussinessmenIndex1TableViewCell.m; sourceTree = "<group>"; };
-		2136D6281FB189CE007A31F2 /* BussinessmenIndex2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BussinessmenIndex2TableViewCell.h; path = ../../../Desktop/ZKGJ/ZKGJ/ZKApp/Controllers/Information/BussinessmenIndex2TableViewCell.h; sourceTree = "<group>"; };
-		2136D6291FB189CE007A31F2 /* BussinessmenIndex2TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BussinessmenIndex2TableViewCell.m; path = ../../../Desktop/ZKGJ/ZKGJ/ZKApp/Controllers/Information/BussinessmenIndex2TableViewCell.m; sourceTree = "<group>"; };
-		2136D62B1FB18A1A007A31F2 /* BussinessmenIndex2Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BussinessmenIndex2Model.h; path = ../../../Desktop/ZKGJ/ZKGJ/ZKApp/Controllers/Information/BussinessmenIndex2Model.h; sourceTree = "<group>"; };
-		2136D62C1FB18A1A007A31F2 /* BussinessmenIndex2Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BussinessmenIndex2Model.m; path = ../../../Desktop/ZKGJ/ZKGJ/ZKApp/Controllers/Information/BussinessmenIndex2Model.m; sourceTree = "<group>"; };
-		2136D62E1FB19EBC007A31F2 /* BussinessmenIndex3TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BussinessmenIndex3TableViewCell.h; path = ../../../Desktop/ZKGJ/ZKGJ/ZKApp/Controllers/Information/BussinessmenIndex3TableViewCell.h; sourceTree = "<group>"; };
-		2136D62F1FB19EBC007A31F2 /* BussinessmenIndex3TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BussinessmenIndex3TableViewCell.m; path = ../../../Desktop/ZKGJ/ZKGJ/ZKApp/Controllers/Information/BussinessmenIndex3TableViewCell.m; sourceTree = "<group>"; };
-		2136D6311FB19FC1007A31F2 /* BussinessmenIndex3Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BussinessmenIndex3Model.h; path = ../../../Desktop/ZKGJ/ZKGJ/ZKApp/Controllers/Information/BussinessmenIndex3Model.h; sourceTree = "<group>"; };
-		2136D6321FB19FC1007A31F2 /* BussinessmenIndex3Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BussinessmenIndex3Model.m; path = ../../../Desktop/ZKGJ/ZKGJ/ZKApp/Controllers/Information/BussinessmenIndex3Model.m; sourceTree = "<group>"; };
-		2136D6341FB1A238007A31F2 /* BussinessmenIndex4Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BussinessmenIndex4Model.h; path = ../../../Desktop/ZKGJ/ZKGJ/ZKApp/Controllers/Information/BussinessmenIndex4Model.h; sourceTree = "<group>"; };
-		2136D6351FB1A238007A31F2 /* BussinessmenIndex4Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BussinessmenIndex4Model.m; path = ../../../Desktop/ZKGJ/ZKGJ/ZKApp/Controllers/Information/BussinessmenIndex4Model.m; sourceTree = "<group>"; };
-		2136D6371FB1A2A1007A31F2 /* BussinessmenIndex4TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BussinessmenIndex4TableViewCell.h; path = ../../../Desktop/ZKGJ/ZKGJ/ZKApp/Controllers/Information/BussinessmenIndex4TableViewCell.h; sourceTree = "<group>"; };
-		2136D6381FB1A2A1007A31F2 /* BussinessmenIndex4TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BussinessmenIndex4TableViewCell.m; path = ../../../Desktop/ZKGJ/ZKGJ/ZKApp/Controllers/Information/BussinessmenIndex4TableViewCell.m; sourceTree = "<group>"; };
 		213F07351FA96C4D0066FE14 /* TaiLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaiLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		213F07391FA96C4F0066FE14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		213F073B1FA96C510066FE14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -410,6 +392,24 @@
 		90DB1C1000BF0A6E0FB5EA58 /* Pods-TaiLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaiLife.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaiLife/Pods-TaiLife.release.xcconfig"; sourceTree = "<group>"; };
 		B3CD03877B2E4E9E9A2BE8A5 /* libPods-TaiLife.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TaiLife.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38B3B835D9737B732D44547 /* Pods-TaiLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaiLife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaiLife/Pods-TaiLife.debug.xcconfig"; sourceTree = "<group>"; };
+		F836C4C91FB284F20052A8E2 /* BussinessmenIndex0Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BussinessmenIndex0Model.h; sourceTree = "<group>"; };
+		F836C4CA1FB284F20052A8E2 /* BussinessmenIndex0Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BussinessmenIndex0Model.m; sourceTree = "<group>"; };
+		F836C4CB1FB284F20052A8E2 /* BussinessmenIndex2Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BussinessmenIndex2Model.h; sourceTree = "<group>"; };
+		F836C4CC1FB284F20052A8E2 /* BussinessmenIndex2Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BussinessmenIndex2Model.m; sourceTree = "<group>"; };
+		F836C4CD1FB284F20052A8E2 /* BussinessmenIndex3Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BussinessmenIndex3Model.h; sourceTree = "<group>"; };
+		F836C4CE1FB284F20052A8E2 /* BussinessmenIndex3Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BussinessmenIndex3Model.m; sourceTree = "<group>"; };
+		F836C4CF1FB284F20052A8E2 /* BussinessmenIndex4Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BussinessmenIndex4Model.h; sourceTree = "<group>"; };
+		F836C4D01FB284F20052A8E2 /* BussinessmenIndex4Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BussinessmenIndex4Model.m; sourceTree = "<group>"; };
+		F836C4DA1FB285950052A8E2 /* BussinessmenIndex0TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BussinessmenIndex0TableViewCell.h; sourceTree = "<group>"; };
+		F836C4DB1FB285950052A8E2 /* BussinessmenIndex0TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BussinessmenIndex0TableViewCell.m; sourceTree = "<group>"; };
+		F836C4DC1FB285950052A8E2 /* BussinessmenIndex1TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BussinessmenIndex1TableViewCell.h; sourceTree = "<group>"; };
+		F836C4DD1FB285950052A8E2 /* BussinessmenIndex1TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BussinessmenIndex1TableViewCell.m; sourceTree = "<group>"; };
+		F836C4DE1FB285950052A8E2 /* BussinessmenIndex2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BussinessmenIndex2TableViewCell.h; sourceTree = "<group>"; };
+		F836C4DF1FB285950052A8E2 /* BussinessmenIndex2TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BussinessmenIndex2TableViewCell.m; sourceTree = "<group>"; };
+		F836C4E01FB285950052A8E2 /* BussinessmenIndex3TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BussinessmenIndex3TableViewCell.h; sourceTree = "<group>"; };
+		F836C4E11FB285950052A8E2 /* BussinessmenIndex3TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BussinessmenIndex3TableViewCell.m; sourceTree = "<group>"; };
+		F836C4E21FB285950052A8E2 /* BussinessmenIndex4TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BussinessmenIndex4TableViewCell.h; sourceTree = "<group>"; };
+		F836C4E31FB285950052A8E2 /* BussinessmenIndex4TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BussinessmenIndex4TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -469,40 +469,6 @@
 				90DB1C1000BF0A6E0FB5EA58 /* Pods-TaiLife.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		2136D61A1FB15B12007A31F2 /* BusinessmenIndex */ = {
-			isa = PBXGroup;
-			children = (
-				2136D6221FB16247007A31F2 /* BussinessmenIndex0TableViewCell.h */,
-				2136D6231FB16247007A31F2 /* BussinessmenIndex0TableViewCell.m */,
-				2136D6251FB18035007A31F2 /* BussinessmenIndex1TableViewCell.h */,
-				2136D6261FB18035007A31F2 /* BussinessmenIndex1TableViewCell.m */,
-				2136D6281FB189CE007A31F2 /* BussinessmenIndex2TableViewCell.h */,
-				2136D6291FB189CE007A31F2 /* BussinessmenIndex2TableViewCell.m */,
-				2136D62E1FB19EBC007A31F2 /* BussinessmenIndex3TableViewCell.h */,
-				2136D62F1FB19EBC007A31F2 /* BussinessmenIndex3TableViewCell.m */,
-				2136D6371FB1A2A1007A31F2 /* BussinessmenIndex4TableViewCell.h */,
-				2136D6381FB1A2A1007A31F2 /* BussinessmenIndex4TableViewCell.m */,
-			);
-			name = BusinessmenIndex;
-			path = "../../../../../Downloads/效果图/BusinessmenIndex";
-			sourceTree = "<group>";
-		};
-		2136D61B1FB15B1E007A31F2 /* BusinessmenIndex */ = {
-			isa = PBXGroup;
-			children = (
-				2136D61C1FB15B8C007A31F2 /* BussinessmenIndex0Model.h */,
-				2136D61D1FB15B8C007A31F2 /* BussinessmenIndex0Model.m */,
-				2136D62B1FB18A1A007A31F2 /* BussinessmenIndex2Model.h */,
-				2136D62C1FB18A1A007A31F2 /* BussinessmenIndex2Model.m */,
-				2136D6311FB19FC1007A31F2 /* BussinessmenIndex3Model.h */,
-				2136D6321FB19FC1007A31F2 /* BussinessmenIndex3Model.m */,
-				2136D6341FB1A238007A31F2 /* BussinessmenIndex4Model.h */,
-				2136D6351FB1A238007A31F2 /* BussinessmenIndex4Model.m */,
-			);
-			name = BusinessmenIndex;
-			path = "../../../../../Downloads/效果图/BusinessmenIndex";
 			sourceTree = "<group>";
 		};
 		213F072C1FA96C4C0066FE14 = {
@@ -989,11 +955,11 @@
 		218853D81FAFE414005CCFC7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F836C4EB1FB285CD0052A8E2 /* Home */,
+				F836C4EA1FB285BD0052A8E2 /* Service */,
+				F836C4E91FB285AF0052A8E2 /* Community */,
+				F836C4D81FB2856E0052A8E2 /* Businmen */,
 				218853E31FAFE4B2005CCFC7 /* Mine */,
-				218853E11FAFE4A0005CCFC7 /* Businessmen */,
-				218853DF1FAFE48E005CCFC7 /* Community */,
-				218853DD1FAFE47D005CCFC7 /* Service */,
-				218853DB1FAFE46A005CCFC7 /* Home */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1001,71 +967,13 @@
 		218853D91FAFE421005CCFC7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F836C4D71FB2853B0052A8E2 /* Home */,
+				F836C4D61FB2852A0052A8E2 /* Service */,
+				F836C4D51FB285170052A8E2 /* Community */,
+				F836C4BB1FB284930052A8E2 /* Businmen */,
 				218853E21FAFE4AC005CCFC7 /* Mine */,
-				218853E01FAFE49C005CCFC7 /* Businessmen */,
-				218853DE1FAFE489005CCFC7 /* Community */,
-				218853DC1FAFE475005CCFC7 /* Service */,
-				218853DA1FAFE466005CCFC7 /* Home */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		218853DA1FAFE466005CCFC7 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		218853DB1FAFE46A005CCFC7 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		218853DC1FAFE475005CCFC7 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		218853DD1FAFE47D005CCFC7 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		218853DE1FAFE489005CCFC7 /* Community */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Community;
-			sourceTree = "<group>";
-		};
-		218853DF1FAFE48E005CCFC7 /* Community */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Community;
-			sourceTree = "<group>";
-		};
-		218853E01FAFE49C005CCFC7 /* Businessmen */ = {
-			isa = PBXGroup;
-			children = (
-				2136D61B1FB15B1E007A31F2 /* BusinessmenIndex */,
-			);
-			path = Businessmen;
-			sourceTree = "<group>";
-		};
-		218853E11FAFE4A0005CCFC7 /* Businessmen */ = {
-			isa = PBXGroup;
-			children = (
-				2136D61A1FB15B12007A31F2 /* BusinessmenIndex */,
-			);
-			path = Businessmen;
 			sourceTree = "<group>";
 		};
 		218853E21FAFE4AC005CCFC7 /* Mine */ = {
@@ -1304,6 +1212,96 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F836C4BB1FB284930052A8E2 /* Businmen */ = {
+			isa = PBXGroup;
+			children = (
+				F836C4C81FB284E20052A8E2 /* BusinmenIndex */,
+			);
+			path = Businmen;
+			sourceTree = "<group>";
+		};
+		F836C4C81FB284E20052A8E2 /* BusinmenIndex */ = {
+			isa = PBXGroup;
+			children = (
+				F836C4C91FB284F20052A8E2 /* BussinessmenIndex0Model.h */,
+				F836C4CA1FB284F20052A8E2 /* BussinessmenIndex0Model.m */,
+				F836C4CB1FB284F20052A8E2 /* BussinessmenIndex2Model.h */,
+				F836C4CC1FB284F20052A8E2 /* BussinessmenIndex2Model.m */,
+				F836C4CD1FB284F20052A8E2 /* BussinessmenIndex3Model.h */,
+				F836C4CE1FB284F20052A8E2 /* BussinessmenIndex3Model.m */,
+				F836C4CF1FB284F20052A8E2 /* BussinessmenIndex4Model.h */,
+				F836C4D01FB284F20052A8E2 /* BussinessmenIndex4Model.m */,
+			);
+			path = BusinmenIndex;
+			sourceTree = "<group>";
+		};
+		F836C4D51FB285170052A8E2 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		F836C4D61FB2852A0052A8E2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F836C4D71FB2853B0052A8E2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F836C4D81FB2856E0052A8E2 /* Businmen */ = {
+			isa = PBXGroup;
+			children = (
+				F836C4D91FB2857C0052A8E2 /* BusinmenIndex */,
+			);
+			path = Businmen;
+			sourceTree = "<group>";
+		};
+		F836C4D91FB2857C0052A8E2 /* BusinmenIndex */ = {
+			isa = PBXGroup;
+			children = (
+				F836C4DA1FB285950052A8E2 /* BussinessmenIndex0TableViewCell.h */,
+				F836C4DB1FB285950052A8E2 /* BussinessmenIndex0TableViewCell.m */,
+				F836C4DC1FB285950052A8E2 /* BussinessmenIndex1TableViewCell.h */,
+				F836C4DD1FB285950052A8E2 /* BussinessmenIndex1TableViewCell.m */,
+				F836C4DE1FB285950052A8E2 /* BussinessmenIndex2TableViewCell.h */,
+				F836C4DF1FB285950052A8E2 /* BussinessmenIndex2TableViewCell.m */,
+				F836C4E01FB285950052A8E2 /* BussinessmenIndex3TableViewCell.h */,
+				F836C4E11FB285950052A8E2 /* BussinessmenIndex3TableViewCell.m */,
+				F836C4E21FB285950052A8E2 /* BussinessmenIndex4TableViewCell.h */,
+				F836C4E31FB285950052A8E2 /* BussinessmenIndex4TableViewCell.m */,
+			);
+			path = BusinmenIndex;
+			sourceTree = "<group>";
+		};
+		F836C4E91FB285AF0052A8E2 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		F836C4EA1FB285BD0052A8E2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F836C4EB1FB285CD0052A8E2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1505,32 +1503,36 @@
 			files = (
 				213F087B1FA998F50066FE14 /* PageControl.m in Sources */,
 				213F095D1FA9A8D10066FE14 /* PayViewController.mm in Sources */,
+				F836C4D41FB284F20052A8E2 /* BussinessmenIndex4Model.m in Sources */,
 				213F08731FA998F50066FE14 /* NSObject+YYModel.m in Sources */,
 				213F08201FA998600066FE14 /* UIView+Extension.m in Sources */,
 				213F087C1FA998F50066FE14 /* XRQTextview.m in Sources */,
 				21F91B911FA9AAC600D8F072 /* RSADataVerifier.m in Sources */,
+				F836C4D21FB284F20052A8E2 /* BussinessmenIndex2Model.m in Sources */,
 				213F08B21FA99D590066FE14 /* BusinessmenIndexViewController.m in Sources */,
 				21F91B901FA9AAC600D8F072 /* RSADataSigner.m in Sources */,
+				F836C4E61FB285950052A8E2 /* BussinessmenIndex2TableViewCell.m in Sources */,
+				F836C4D11FB284F20052A8E2 /* BussinessmenIndex0Model.m in Sources */,
 				213F09581FA9A8B10066FE14 /* WXApiManager.m in Sources */,
 				21F91B8D1FA9AAC600D8F072 /* MD5DataSigner.m in Sources */,
 				213F08821FA998F50066FE14 /* RDVTabBarItem.m in Sources */,
+				F836C4D31FB284F20052A8E2 /* BussinessmenIndex3Model.m in Sources */,
 				213F08A31FA99B820066FE14 /* requestService.m in Sources */,
 				213F08A51FA99B820066FE14 /* XRQJPush.m in Sources */,
 				213F089F1FA99B820066FE14 /* CDPDatePicker.m in Sources */,
 				213F08721FA998F50066FE14 /* BRStringPickerView.m in Sources */,
 				213F086E1FA998F50066FE14 /* BRAddressPickerView.m in Sources */,
 				213F08791FA998F50066FE14 /* AnimatedDotView.m in Sources */,
+				F836C4E51FB285950052A8E2 /* BussinessmenIndex1TableViewCell.m in Sources */,
 				219CD9331FAAB35A00A23D93 /* LoginViewController.m in Sources */,
 				21F91B8F1FA9AAC600D8F072 /* openssl_wrapper.m in Sources */,
 				213F08711FA998F50066FE14 /* BRDatePickerView.m in Sources */,
-				2136D6361FB1A238007A31F2 /* BussinessmenIndex4Model.m in Sources */,
 				213F08741FA998F50066FE14 /* YYClassInfo.m in Sources */,
 				219CD92A1FAAAEC700A23D93 /* TXScrollLabelView.m in Sources */,
 				21E9E3981FAFFA3B00D6B933 /* XRQAddController.m in Sources */,
 				21F91B8E1FA9AAC600D8F072 /* NSDataEx.m in Sources */,
 				213F087D1FA998F50066FE14 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */,
 				213F08781FA998F50066FE14 /* AbstractDotView.m in Sources */,
-				2136D61E1FB15B8C007A31F2 /* BussinessmenIndex0Model.m in Sources */,
 				213F08861FA998F50066FE14 /* WJDropdownMenu.m in Sources */,
 				213F08B51FA99D610066FE14 /* CommunityIndexViewController.m in Sources */,
 				213F086D1FA998F50066FE14 /* BRAddressModel.m in Sources */,
@@ -1538,35 +1540,31 @@
 				213F087A1FA998F50066FE14 /* DotView.m in Sources */,
 				213F087E1FA998F50066FE14 /* NSData+JSONCategoriesData.m in Sources */,
 				21F91B8A1FA9AAC600D8F072 /* base64.m in Sources */,
-				2136D62A1FB189CE007A31F2 /* BussinessmenIndex2TableViewCell.m in Sources */,
 				213F09561FA9A8B10066FE14 /* MXWechatPayHandler.m in Sources */,
 				213F086C1FA998F50066FE14 /* LHRatingView.m in Sources */,
 				213F08771FA998F50066FE14 /* CycleScrollView.m in Sources */,
 				213F08B81FA99D690066FE14 /* ServiceIndexViewController.m in Sources */,
+				F836C4E41FB285950052A8E2 /* BussinessmenIndex0TableViewCell.m in Sources */,
 				213F08A01FA99B820066FE14 /* HUD.m in Sources */,
 				213F08701FA998F50066FE14 /* BaseView.m in Sources */,
 				213F08A61FA99B820066FE14 /* XRQRequestClient.m in Sources */,
 				213F089E1FA99B820066FE14 /* BaseViewController.m in Sources */,
 				213F09591FA9A8B10066FE14 /* XMLDictionary.m in Sources */,
 				21F91B891FA9AAC600D8F072 /* Order.m in Sources */,
+				F836C4E71FB285950052A8E2 /* BussinessmenIndex3TableViewCell.m in Sources */,
 				21F91B8C1FA9AAC600D8F072 /* DataVerifier.m in Sources */,
 				219CD92E1FAAAEF300A23D93 /* PMDViewController.m in Sources */,
 				213F08A21FA99B820066FE14 /* RegularExpressions.m in Sources */,
-				2136D62D1FB18A1A007A31F2 /* BussinessmenIndex2Model.m in Sources */,
 				213F087F1FA998F50066FE14 /* NSString+JSONCategoriesString.m in Sources */,
 				213F09571FA9A8B10066FE14 /* MXWechatSignAdaptor.m in Sources */,
-				2136D6241FB16247007A31F2 /* BussinessmenIndex0TableViewCell.m in Sources */,
+				F836C4E81FB285950052A8E2 /* BussinessmenIndex4TableViewCell.m in Sources */,
 				213F073D1FA96C510066FE14 /* AppDelegate.m in Sources */,
 				213F08AF1FA99D510066FE14 /* MineIndexViewController.m in Sources */,
 				213F08811FA998F50066FE14 /* RDVTabBarController.m in Sources */,
-				2136D6271FB18035007A31F2 /* BussinessmenIndex1TableViewCell.m in Sources */,
 				213F081F1FA998600066FE14 /* UITextView+placeholder.m in Sources */,
 				213F08761FA998F50066FE14 /* CollectionViewCell.m in Sources */,
 				213F08A41FA99B820066FE14 /* UIButton+CountDown.m in Sources */,
-				2136D6331FB19FC1007A31F2 /* BussinessmenIndex3Model.m in Sources */,
 				213F08BB1FA99D700066FE14 /* HomeIndexViewController.m in Sources */,
-				2136D6391FB1A2A1007A31F2 /* BussinessmenIndex4TableViewCell.m in Sources */,
-				2136D6301FB19EBC007A31F2 /* BussinessmenIndex3TableViewCell.m in Sources */,
 				213F08801FA998F50066FE14 /* RDVTabBar.m in Sources */,
 				219CD92B1FAAAEC700A23D93 /* UIView+TXFrame.m in Sources */,
 				218853E81FAFE4EF005CCFC7 /* MineIndexModel.m in Sources */,
