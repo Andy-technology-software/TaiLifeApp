@@ -116,6 +116,12 @@
 		F836C4E61FB285950052A8E2 /* BussinessmenIndex2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F836C4DF1FB285950052A8E2 /* BussinessmenIndex2TableViewCell.m */; };
 		F836C4E71FB285950052A8E2 /* BussinessmenIndex3TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F836C4E11FB285950052A8E2 /* BussinessmenIndex3TableViewCell.m */; };
 		F836C4E81FB285950052A8E2 /* BussinessmenIndex4TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F836C4E31FB285950052A8E2 /* BussinessmenIndex4TableViewCell.m */; };
+		F87EC54D1FB3E4E3006AA53D /* CommunityIndex0Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F87EC54C1FB3E4E3006AA53D /* CommunityIndex0Model.m */; };
+		F87EC5511FB3E4FE006AA53D /* ServiceIndexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F87EC5501FB3E4FE006AA53D /* ServiceIndexModel.m */; };
+		F87EC5551FB3E516006AA53D /* HomeIndex0Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F87EC5541FB3E516006AA53D /* HomeIndex0Model.m */; };
+		F87EC5591FB3E534006AA53D /* HomeIndex0TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F87EC5581FB3E534006AA53D /* HomeIndex0TableViewCell.m */; };
+		F87EC55D1FB3E548006AA53D /* ServiceIndex0TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F87EC55C1FB3E548006AA53D /* ServiceIndex0TableViewCell.m */; };
+		F87EC5611FB3E55C006AA53D /* CommunityIndex0TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F87EC5601FB3E55C006AA53D /* CommunityIndex0TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -410,6 +416,18 @@
 		F836C4E11FB285950052A8E2 /* BussinessmenIndex3TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BussinessmenIndex3TableViewCell.m; sourceTree = "<group>"; };
 		F836C4E21FB285950052A8E2 /* BussinessmenIndex4TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BussinessmenIndex4TableViewCell.h; sourceTree = "<group>"; };
 		F836C4E31FB285950052A8E2 /* BussinessmenIndex4TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BussinessmenIndex4TableViewCell.m; sourceTree = "<group>"; };
+		F87EC54B1FB3E4E3006AA53D /* CommunityIndex0Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityIndex0Model.h; sourceTree = "<group>"; };
+		F87EC54C1FB3E4E3006AA53D /* CommunityIndex0Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityIndex0Model.m; sourceTree = "<group>"; };
+		F87EC54F1FB3E4FE006AA53D /* ServiceIndexModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceIndexModel.h; sourceTree = "<group>"; };
+		F87EC5501FB3E4FE006AA53D /* ServiceIndexModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceIndexModel.m; sourceTree = "<group>"; };
+		F87EC5531FB3E516006AA53D /* HomeIndex0Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex0Model.h; sourceTree = "<group>"; };
+		F87EC5541FB3E516006AA53D /* HomeIndex0Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex0Model.m; sourceTree = "<group>"; };
+		F87EC5571FB3E534006AA53D /* HomeIndex0TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex0TableViewCell.h; sourceTree = "<group>"; };
+		F87EC5581FB3E534006AA53D /* HomeIndex0TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex0TableViewCell.m; sourceTree = "<group>"; };
+		F87EC55B1FB3E548006AA53D /* ServiceIndex0TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceIndex0TableViewCell.h; sourceTree = "<group>"; };
+		F87EC55C1FB3E548006AA53D /* ServiceIndex0TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceIndex0TableViewCell.m; sourceTree = "<group>"; };
+		F87EC55F1FB3E55C006AA53D /* CommunityIndex0TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityIndex0TableViewCell.h; sourceTree = "<group>"; };
+		F87EC5601FB3E55C006AA53D /* CommunityIndex0TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityIndex0TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1238,6 +1256,7 @@
 		F836C4D51FB285170052A8E2 /* Community */ = {
 			isa = PBXGroup;
 			children = (
+				F87EC54A1FB3E4C3006AA53D /* CommunityIndex */,
 			);
 			path = Community;
 			sourceTree = "<group>";
@@ -1245,6 +1264,7 @@
 		F836C4D61FB2852A0052A8E2 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				F87EC54E1FB3E4F5006AA53D /* ServiceIndex */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -1252,6 +1272,7 @@
 		F836C4D71FB2853B0052A8E2 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				F87EC5521FB3E50B006AA53D /* HomeIndex */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -1284,6 +1305,7 @@
 		F836C4E91FB285AF0052A8E2 /* Community */ = {
 			isa = PBXGroup;
 			children = (
+				F87EC55E1FB3E554006AA53D /* CommunityIndex */,
 			);
 			path = Community;
 			sourceTree = "<group>";
@@ -1291,6 +1313,7 @@
 		F836C4EA1FB285BD0052A8E2 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				F87EC55A1FB3E53F006AA53D /* ServiceIndex */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -1298,8 +1321,63 @@
 		F836C4EB1FB285CD0052A8E2 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				F87EC5561FB3E524006AA53D /* HomeIndex */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		F87EC54A1FB3E4C3006AA53D /* CommunityIndex */ = {
+			isa = PBXGroup;
+			children = (
+				F87EC54B1FB3E4E3006AA53D /* CommunityIndex0Model.h */,
+				F87EC54C1FB3E4E3006AA53D /* CommunityIndex0Model.m */,
+			);
+			path = CommunityIndex;
+			sourceTree = "<group>";
+		};
+		F87EC54E1FB3E4F5006AA53D /* ServiceIndex */ = {
+			isa = PBXGroup;
+			children = (
+				F87EC54F1FB3E4FE006AA53D /* ServiceIndexModel.h */,
+				F87EC5501FB3E4FE006AA53D /* ServiceIndexModel.m */,
+			);
+			path = ServiceIndex;
+			sourceTree = "<group>";
+		};
+		F87EC5521FB3E50B006AA53D /* HomeIndex */ = {
+			isa = PBXGroup;
+			children = (
+				F87EC5531FB3E516006AA53D /* HomeIndex0Model.h */,
+				F87EC5541FB3E516006AA53D /* HomeIndex0Model.m */,
+			);
+			path = HomeIndex;
+			sourceTree = "<group>";
+		};
+		F87EC5561FB3E524006AA53D /* HomeIndex */ = {
+			isa = PBXGroup;
+			children = (
+				F87EC5571FB3E534006AA53D /* HomeIndex0TableViewCell.h */,
+				F87EC5581FB3E534006AA53D /* HomeIndex0TableViewCell.m */,
+			);
+			path = HomeIndex;
+			sourceTree = "<group>";
+		};
+		F87EC55A1FB3E53F006AA53D /* ServiceIndex */ = {
+			isa = PBXGroup;
+			children = (
+				F87EC55B1FB3E548006AA53D /* ServiceIndex0TableViewCell.h */,
+				F87EC55C1FB3E548006AA53D /* ServiceIndex0TableViewCell.m */,
+			);
+			path = ServiceIndex;
+			sourceTree = "<group>";
+		};
+		F87EC55E1FB3E554006AA53D /* CommunityIndex */ = {
+			isa = PBXGroup;
+			children = (
+				F87EC55F1FB3E55C006AA53D /* CommunityIndex0TableViewCell.h */,
+				F87EC5601FB3E55C006AA53D /* CommunityIndex0TableViewCell.m */,
+			);
+			path = CommunityIndex;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1527,6 +1605,7 @@
 				219CD9331FAAB35A00A23D93 /* LoginViewController.m in Sources */,
 				21F91B8F1FA9AAC600D8F072 /* openssl_wrapper.m in Sources */,
 				213F08711FA998F50066FE14 /* BRDatePickerView.m in Sources */,
+				F87EC54D1FB3E4E3006AA53D /* CommunityIndex0Model.m in Sources */,
 				213F08741FA998F50066FE14 /* YYClassInfo.m in Sources */,
 				219CD92A1FAAAEC700A23D93 /* TXScrollLabelView.m in Sources */,
 				21E9E3981FAFFA3B00D6B933 /* XRQAddController.m in Sources */,
@@ -1540,6 +1619,8 @@
 				213F087A1FA998F50066FE14 /* DotView.m in Sources */,
 				213F087E1FA998F50066FE14 /* NSData+JSONCategoriesData.m in Sources */,
 				21F91B8A1FA9AAC600D8F072 /* base64.m in Sources */,
+				F87EC5591FB3E534006AA53D /* HomeIndex0TableViewCell.m in Sources */,
+				F87EC5551FB3E516006AA53D /* HomeIndex0Model.m in Sources */,
 				213F09561FA9A8B10066FE14 /* MXWechatPayHandler.m in Sources */,
 				213F086C1FA998F50066FE14 /* LHRatingView.m in Sources */,
 				213F08771FA998F50066FE14 /* CycleScrollView.m in Sources */,
@@ -1554,13 +1635,16 @@
 				F836C4E71FB285950052A8E2 /* BussinessmenIndex3TableViewCell.m in Sources */,
 				21F91B8C1FA9AAC600D8F072 /* DataVerifier.m in Sources */,
 				219CD92E1FAAAEF300A23D93 /* PMDViewController.m in Sources */,
+				F87EC55D1FB3E548006AA53D /* ServiceIndex0TableViewCell.m in Sources */,
 				213F08A21FA99B820066FE14 /* RegularExpressions.m in Sources */,
 				213F087F1FA998F50066FE14 /* NSString+JSONCategoriesString.m in Sources */,
+				F87EC5511FB3E4FE006AA53D /* ServiceIndexModel.m in Sources */,
 				213F09571FA9A8B10066FE14 /* MXWechatSignAdaptor.m in Sources */,
 				F836C4E81FB285950052A8E2 /* BussinessmenIndex4TableViewCell.m in Sources */,
 				213F073D1FA96C510066FE14 /* AppDelegate.m in Sources */,
 				213F08AF1FA99D510066FE14 /* MineIndexViewController.m in Sources */,
 				213F08811FA998F50066FE14 /* RDVTabBarController.m in Sources */,
+				F87EC5611FB3E55C006AA53D /* CommunityIndex0TableViewCell.m in Sources */,
 				213F081F1FA998600066FE14 /* UITextView+placeholder.m in Sources */,
 				213F08761FA998F50066FE14 /* CollectionViewCell.m in Sources */,
 				213F08A41FA99B820066FE14 /* UIButton+CountDown.m in Sources */,
