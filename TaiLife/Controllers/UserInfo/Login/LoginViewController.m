@@ -15,7 +15,7 @@
 #import "Login1TableViewCell.h"
 
 #import "Login2TableViewCell.h"
-@interface LoginViewController ()<UITableViewDataSource,UITableViewDelegate,Login0TableViewCellDelegate,Login1TableViewCellDelegate,Login2TableViewCellDelegate>{
+@interface LoginViewController ()<UITableViewDataSource,UITableViewDelegate,Login0TableViewCellDelegate,Login1TableViewCellDelegate,Login2TableViewCellDelegate> {
     UITableView* _tableView;
 }
 @property(nonatomic,retain)NSMutableArray* dataSource;
@@ -73,6 +73,7 @@
     
 }
 
+#pragma mark - 创建测试数据
 - (void)makeData {
     LoginModel* model = [[LoginModel alloc] init];
     model._isPass = YES;
@@ -103,7 +104,6 @@
     UIImageView *tableBg = [[UIImageView alloc] initWithImage:nil];
     tableBg.backgroundColor = [XRQController colorWithHexString:@"ffffff"];
     [_tableView setBackgroundView:tableBg];
-    //分割线类型
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     _tableView.showsVerticalScrollIndicator = NO;
     [self.view addSubview:_tableView];
@@ -134,7 +134,6 @@
         [cell0 configCellWithModel:model];
         return cell0;
     }
-
     Login2TableViewCell* cell0 = [[Login2TableViewCell alloc] init];
     cell0.Login2TableViewCellDelegate = self;
     LoginModel *model = nil;
@@ -150,27 +149,23 @@
         LoginModel* model = self.dataSource[indexPath.row];
         return [Login0TableViewCell hyb_heightForIndexPath:indexPath config:^(UITableViewCell *sourceCell) {
             Login0TableViewCell *cell = (Login0TableViewCell *)sourceCell;
-            // 配置数据
             [cell configCellWithModel:model];
         }];
     }else if (1 == indexPath.section) {
         LoginModel* model = self.dataSource[indexPath.row];
         return [Login1TableViewCell hyb_heightForIndexPath:indexPath config:^(UITableViewCell *sourceCell) {
             Login1TableViewCell *cell = (Login1TableViewCell *)sourceCell;
-            // 配置数据
             [cell configCellWithModel:model];
         }];
     }
-
     LoginModel* model = self.dataSource[indexPath.row];
     return [Login2TableViewCell hyb_heightForIndexPath:indexPath config:^(UITableViewCell *sourceCell) {
         Login2TableViewCell *cell = (Login2TableViewCell *)sourceCell;
-        // 配置数据
         [cell configCellWithModel:model];
     }];
-    
 }
 
+#pragma mark - tableview组数
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 3;
 }

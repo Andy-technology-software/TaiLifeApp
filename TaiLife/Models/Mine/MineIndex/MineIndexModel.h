@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface MineIndexModel : NSObject
+@property(nonatomic,copy)NSString* _headImage;
+@property(nonatomic,copy)NSString* _name;
+@property(nonatomic,copy)NSString* _jifen;
 
 @end

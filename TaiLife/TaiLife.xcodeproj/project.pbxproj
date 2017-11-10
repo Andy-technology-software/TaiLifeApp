@@ -111,6 +111,8 @@
 		F8257DBE1FB5568F00FF42B9 /* Login0TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8257DBD1FB5568F00FF42B9 /* Login0TableViewCell.m */; };
 		F8257DC11FB5569900FF42B9 /* Login1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8257DC01FB5569900FF42B9 /* Login1TableViewCell.m */; };
 		F8257DC41FB556A000FF42B9 /* Login2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8257DC31FB556A000FF42B9 /* Login2TableViewCell.m */; };
+		F8257DC71FB5984500FF42B9 /* MineIndex1Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F8257DC61FB5984500FF42B9 /* MineIndex1Model.m */; };
+		F8257DCA1FB5989500FF42B9 /* MineIndex1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8257DC91FB5989500FF42B9 /* MineIndex1TableViewCell.m */; };
 		F836C4D11FB284F20052A8E2 /* BussinessmenIndex0Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F836C4CA1FB284F20052A8E2 /* BussinessmenIndex0Model.m */; };
 		F836C4D21FB284F20052A8E2 /* BussinessmenIndex2Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F836C4CC1FB284F20052A8E2 /* BussinessmenIndex2Model.m */; };
 		F836C4D31FB284F20052A8E2 /* BussinessmenIndex3Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F836C4CE1FB284F20052A8E2 /* BussinessmenIndex3Model.m */; };
@@ -410,6 +412,10 @@
 		F8257DC01FB5569900FF42B9 /* Login1TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login1TableViewCell.m; sourceTree = "<group>"; };
 		F8257DC21FB556A000FF42B9 /* Login2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login2TableViewCell.h; sourceTree = "<group>"; };
 		F8257DC31FB556A000FF42B9 /* Login2TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login2TableViewCell.m; sourceTree = "<group>"; };
+		F8257DC51FB5984500FF42B9 /* MineIndex1Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineIndex1Model.h; sourceTree = "<group>"; };
+		F8257DC61FB5984500FF42B9 /* MineIndex1Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineIndex1Model.m; sourceTree = "<group>"; };
+		F8257DC81FB5989500FF42B9 /* MineIndex1TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineIndex1TableViewCell.h; sourceTree = "<group>"; };
+		F8257DC91FB5989500FF42B9 /* MineIndex1TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineIndex1TableViewCell.m; sourceTree = "<group>"; };
 		F836C4C91FB284F20052A8E2 /* BussinessmenIndex0Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BussinessmenIndex0Model.h; sourceTree = "<group>"; };
 		F836C4CA1FB284F20052A8E2 /* BussinessmenIndex0Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BussinessmenIndex0Model.m; sourceTree = "<group>"; };
 		F836C4CB1FB284F20052A8E2 /* BussinessmenIndex2Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BussinessmenIndex2Model.h; sourceTree = "<group>"; };
@@ -1029,6 +1035,8 @@
 			children = (
 				218853E61FAFE4EF005CCFC7 /* MineIndexModel.h */,
 				218853E71FAFE4EF005CCFC7 /* MineIndexModel.m */,
+				F8257DC51FB5984500FF42B9 /* MineIndex1Model.h */,
+				F8257DC61FB5984500FF42B9 /* MineIndex1Model.m */,
 			);
 			path = MineIndex;
 			sourceTree = "<group>";
@@ -1038,6 +1046,8 @@
 			children = (
 				218853E91FAFE4FE005CCFC7 /* MineIndexTableViewCell.h */,
 				218853EA1FAFE4FE005CCFC7 /* MineIndexTableViewCell.m */,
+				F8257DC81FB5989500FF42B9 /* MineIndex1TableViewCell.h */,
+				F8257DC91FB5989500FF42B9 /* MineIndex1TableViewCell.m */,
 			);
 			path = MineIndex;
 			sourceTree = "<group>";
@@ -1688,8 +1698,10 @@
 				21F91B8C1FA9AAC600D8F072 /* DataVerifier.m in Sources */,
 				219CD92E1FAAAEF300A23D93 /* PMDViewController.m in Sources */,
 				F8257DBE1FB5568F00FF42B9 /* Login0TableViewCell.m in Sources */,
+				F8257DCA1FB5989500FF42B9 /* MineIndex1TableViewCell.m in Sources */,
 				F87EC55D1FB3E548006AA53D /* ServiceIndex0TableViewCell.m in Sources */,
 				213F08A21FA99B820066FE14 /* RegularExpressions.m in Sources */,
+				F8257DC71FB5984500FF42B9 /* MineIndex1Model.m in Sources */,
 				213F087F1FA998F50066FE14 /* NSString+JSONCategoriesString.m in Sources */,
 				F87EC5511FB3E4FE006AA53D /* ServiceIndexModel.m in Sources */,
 				213F09571FA9A8B10066FE14 /* MXWechatSignAdaptor.m in Sources */,

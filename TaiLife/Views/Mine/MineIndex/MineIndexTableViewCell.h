@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class MineIndexModel;
+@protocol MineIndexTableViewCellDelegate <NSObject>
+- (void)sendBack0HeadImage;
+- (void)sendBack0OpenDoor;
+@end
 @interface MineIndexTableViewCell : UITableViewCell
-
+@property(nonatomic,weak)id<MineIndexTableViewCellDelegate>MineIndexTableViewCellDelegate;
+- (void)configCellWithModel:(MineIndexModel *)model;
 @end

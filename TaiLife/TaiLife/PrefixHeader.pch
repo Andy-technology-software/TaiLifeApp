@@ -47,4 +47,7 @@
 #import "MXWechatConfig.h"
 #import "XRQController.h"
 #import "XRQAddController.h"
+
+#define LINECOLOR @"f0f0f0"
+
 #endif

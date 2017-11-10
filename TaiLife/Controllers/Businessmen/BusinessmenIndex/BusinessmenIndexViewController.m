@@ -222,34 +222,29 @@
         BussinessmenIndex0Model* model = self.dataSource0[indexPath.row];
         return [BussinessmenIndex0TableViewCell hyb_heightForIndexPath:indexPath config:^(UITableViewCell *sourceCell) {
             BussinessmenIndex0TableViewCell *cell = (BussinessmenIndex0TableViewCell *)sourceCell;
-            // 配置数据
             [cell configCellWithModel:model];
         }];
     }else if (1 == indexPath.section) {
         return [BussinessmenIndex1TableViewCell hyb_heightForIndexPath:indexPath config:^(UITableViewCell *sourceCell) {
             BussinessmenIndex1TableViewCell *cell = (BussinessmenIndex1TableViewCell *)sourceCell;
-            // 配置数据
             [cell configCellWithModel];
         }];
     }else if (2 == indexPath.section) {
         BussinessmenIndex2Model* model = self.dataSource2[indexPath.row];
         return [BussinessmenIndex2TableViewCell hyb_heightForIndexPath:indexPath config:^(UITableViewCell *sourceCell) {
             BussinessmenIndex2TableViewCell *cell = (BussinessmenIndex2TableViewCell *)sourceCell;
-            // 配置数据
             [cell configCellWithModel:model];
         }];
     }else if (3 == indexPath.section) {
         BussinessmenIndex3Model* model = self.dataSource3[indexPath.row];
         return [BussinessmenIndex3TableViewCell hyb_heightForIndexPath:indexPath config:^(UITableViewCell *sourceCell) {
             BussinessmenIndex3TableViewCell *cell = (BussinessmenIndex3TableViewCell *)sourceCell;
-            // 配置数据
             [cell configCellWithModel:model];
         }];
     }else if (4 == indexPath.section) {
         BussinessmenIndex4Model* model = self.dataSource4[indexPath.row];
         return [BussinessmenIndex4TableViewCell hyb_heightForIndexPath:indexPath config:^(UITableViewCell *sourceCell) {
             BussinessmenIndex4TableViewCell *cell = (BussinessmenIndex4TableViewCell *)sourceCell;
-            // 配置数据
             [cell configCellWithModel:model];
         }];
     }
@@ -257,6 +252,7 @@
     
 }
 
+#pragma mark - tableview组数
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 5;
 }
