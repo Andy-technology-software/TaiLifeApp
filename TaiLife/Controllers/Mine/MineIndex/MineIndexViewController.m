@@ -59,6 +59,8 @@
     model1._imgArr = [[NSMutableArray alloc] initWithObjects:@"1",@"2",@"3", nil];
     model1._desArr = [[NSMutableArray alloc] initWithObjects:@"A小区一号楼一单元2102",@"100",@"3张优惠券", nil];
     model1._titArr = [[NSMutableArray alloc] initWithObjects:@"我的房产",@"我的积分",@"我的优惠券", nil];
+    model1._numrr = [[NSMutableArray alloc] initWithObjects:@"10",@"2",@"0",@"1", nil];
+    model1._subtArr = [[NSMutableArray alloc] initWithObjects:@"我的消息",@"我的报修",@"我的投诉",@"我的订单", nil];
     [self.dataSource1 addObject:model1];
 }
 

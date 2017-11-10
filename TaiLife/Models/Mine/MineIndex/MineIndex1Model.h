@@ -12,5 +12,6 @@
 @property(nonatomic,strong)NSMutableArray* _imgArr;
 @property(nonatomic,strong)NSMutableArray* _titArr;
 @property(nonatomic,strong)NSMutableArray* _desArr;
-
+@property(nonatomic,strong)NSMutableArray* _numrr;
+@property(nonatomic,strong)NSMutableArray* _subtArr;
 @end
