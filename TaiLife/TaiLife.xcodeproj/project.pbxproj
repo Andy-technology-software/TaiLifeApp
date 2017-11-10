@@ -107,6 +107,10 @@
 		21F91BB71FA9AC4300D8F072 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F91BB61FA9AC4300D8F072 /* CoreMotion.framework */; };
 		21F91BB91FA9AC5700D8F072 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F91BB81FA9AC5700D8F072 /* Foundation.framework */; };
 		7124B3C25C38EA91F73A592E /* libPods-TaiLife.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CD03877B2E4E9E9A2BE8A5 /* libPods-TaiLife.a */; };
+		F8257DBB1FB555FF00FF42B9 /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8257DBA1FB555FF00FF42B9 /* LoginModel.m */; };
+		F8257DBE1FB5568F00FF42B9 /* Login0TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8257DBD1FB5568F00FF42B9 /* Login0TableViewCell.m */; };
+		F8257DC11FB5569900FF42B9 /* Login1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8257DC01FB5569900FF42B9 /* Login1TableViewCell.m */; };
+		F8257DC41FB556A000FF42B9 /* Login2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8257DC31FB556A000FF42B9 /* Login2TableViewCell.m */; };
 		F836C4D11FB284F20052A8E2 /* BussinessmenIndex0Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F836C4CA1FB284F20052A8E2 /* BussinessmenIndex0Model.m */; };
 		F836C4D21FB284F20052A8E2 /* BussinessmenIndex2Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F836C4CC1FB284F20052A8E2 /* BussinessmenIndex2Model.m */; };
 		F836C4D31FB284F20052A8E2 /* BussinessmenIndex3Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F836C4CE1FB284F20052A8E2 /* BussinessmenIndex3Model.m */; };
@@ -398,6 +402,14 @@
 		90DB1C1000BF0A6E0FB5EA58 /* Pods-TaiLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaiLife.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaiLife/Pods-TaiLife.release.xcconfig"; sourceTree = "<group>"; };
 		B3CD03877B2E4E9E9A2BE8A5 /* libPods-TaiLife.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TaiLife.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38B3B835D9737B732D44547 /* Pods-TaiLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaiLife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaiLife/Pods-TaiLife.debug.xcconfig"; sourceTree = "<group>"; };
+		F8257DB91FB555FF00FF42B9 /* LoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginModel.h; sourceTree = "<group>"; };
+		F8257DBA1FB555FF00FF42B9 /* LoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginModel.m; sourceTree = "<group>"; };
+		F8257DBC1FB5568F00FF42B9 /* Login0TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login0TableViewCell.h; sourceTree = "<group>"; };
+		F8257DBD1FB5568F00FF42B9 /* Login0TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login0TableViewCell.m; sourceTree = "<group>"; };
+		F8257DBF1FB5569900FF42B9 /* Login1TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login1TableViewCell.h; sourceTree = "<group>"; };
+		F8257DC01FB5569900FF42B9 /* Login1TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login1TableViewCell.m; sourceTree = "<group>"; };
+		F8257DC21FB556A000FF42B9 /* Login2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login2TableViewCell.h; sourceTree = "<group>"; };
+		F8257DC31FB556A000FF42B9 /* Login2TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login2TableViewCell.m; sourceTree = "<group>"; };
 		F836C4C91FB284F20052A8E2 /* BussinessmenIndex0Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BussinessmenIndex0Model.h; sourceTree = "<group>"; };
 		F836C4CA1FB284F20052A8E2 /* BussinessmenIndex0Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BussinessmenIndex0Model.m; sourceTree = "<group>"; };
 		F836C4CB1FB284F20052A8E2 /* BussinessmenIndex2Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BussinessmenIndex2Model.h; sourceTree = "<group>"; };
@@ -973,6 +985,7 @@
 		218853D81FAFE414005CCFC7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F8257DB61FB555D100FF42B9 /* UserInfo */,
 				F836C4EB1FB285CD0052A8E2 /* Home */,
 				F836C4EA1FB285BD0052A8E2 /* Service */,
 				F836C4E91FB285AF0052A8E2 /* Community */,
@@ -985,6 +998,7 @@
 		218853D91FAFE421005CCFC7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F8257DB51FB555CC00FF42B9 /* UserInfo */,
 				F836C4D71FB2853B0052A8E2 /* Home */,
 				F836C4D61FB2852A0052A8E2 /* Service */,
 				F836C4D51FB285170052A8E2 /* Community */,
@@ -1228,6 +1242,44 @@
 				B3CD03877B2E4E9E9A2BE8A5 /* libPods-TaiLife.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8257DB51FB555CC00FF42B9 /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				F8257DB71FB555E100FF42B9 /* Login */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		F8257DB61FB555D100FF42B9 /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				F8257DB81FB555E600FF42B9 /* Login */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		F8257DB71FB555E100FF42B9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F8257DB91FB555FF00FF42B9 /* LoginModel.h */,
+				F8257DBA1FB555FF00FF42B9 /* LoginModel.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F8257DB81FB555E600FF42B9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F8257DBC1FB5568F00FF42B9 /* Login0TableViewCell.h */,
+				F8257DBD1FB5568F00FF42B9 /* Login0TableViewCell.m */,
+				F8257DBF1FB5569900FF42B9 /* Login1TableViewCell.h */,
+				F8257DC01FB5569900FF42B9 /* Login1TableViewCell.m */,
+				F8257DC21FB556A000FF42B9 /* Login2TableViewCell.h */,
+				F8257DC31FB556A000FF42B9 /* Login2TableViewCell.m */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		F836C4BB1FB284930052A8E2 /* Businmen */ = {
@@ -1635,19 +1687,23 @@
 				F836C4E71FB285950052A8E2 /* BussinessmenIndex3TableViewCell.m in Sources */,
 				21F91B8C1FA9AAC600D8F072 /* DataVerifier.m in Sources */,
 				219CD92E1FAAAEF300A23D93 /* PMDViewController.m in Sources */,
+				F8257DBE1FB5568F00FF42B9 /* Login0TableViewCell.m in Sources */,
 				F87EC55D1FB3E548006AA53D /* ServiceIndex0TableViewCell.m in Sources */,
 				213F08A21FA99B820066FE14 /* RegularExpressions.m in Sources */,
 				213F087F1FA998F50066FE14 /* NSString+JSONCategoriesString.m in Sources */,
 				F87EC5511FB3E4FE006AA53D /* ServiceIndexModel.m in Sources */,
 				213F09571FA9A8B10066FE14 /* MXWechatSignAdaptor.m in Sources */,
+				F8257DC41FB556A000FF42B9 /* Login2TableViewCell.m in Sources */,
 				F836C4E81FB285950052A8E2 /* BussinessmenIndex4TableViewCell.m in Sources */,
 				213F073D1FA96C510066FE14 /* AppDelegate.m in Sources */,
 				213F08AF1FA99D510066FE14 /* MineIndexViewController.m in Sources */,
 				213F08811FA998F50066FE14 /* RDVTabBarController.m in Sources */,
 				F87EC5611FB3E55C006AA53D /* CommunityIndex0TableViewCell.m in Sources */,
 				213F081F1FA998600066FE14 /* UITextView+placeholder.m in Sources */,
+				F8257DC11FB5569900FF42B9 /* Login1TableViewCell.m in Sources */,
 				213F08761FA998F50066FE14 /* CollectionViewCell.m in Sources */,
 				213F08A41FA99B820066FE14 /* UIButton+CountDown.m in Sources */,
+				F8257DBB1FB555FF00FF42B9 /* LoginModel.m in Sources */,
 				213F08BB1FA99D700066FE14 /* HomeIndexViewController.m in Sources */,
 				213F08801FA998F50066FE14 /* RDVTabBar.m in Sources */,
 				219CD92B1FAAAEC700A23D93 /* UIView+TXFrame.m in Sources */,
