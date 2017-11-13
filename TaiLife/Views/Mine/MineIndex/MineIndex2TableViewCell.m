@@ -49,6 +49,7 @@
     }];
     
     self.rightIV = [XRQController createImageViewWithFrame:self.contentView.frame ImageName:nil];
+    self.rightIV.backgroundColor = [UIColor redColor];
     [self.contentView addSubview:self.rightIV];
     
     [self.rightIV mas_makeConstraints:^(MASConstraintMaker *make) {

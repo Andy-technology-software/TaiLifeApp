@@ -95,9 +95,9 @@
         
         [_imgV mas_remakeConstraints:^(MASConstraintMaker *make) {
             make.centerX.mas_equalTo(_BV.mas_centerX);
-            make.top.mas_equalTo(15);
-            make.width.mas_offset(23);
-            make.height.mas_offset(23);
+            make.top.mas_equalTo(16);
+            make.width.mas_offset(26);
+            make.height.mas_offset(26);
         }];
         
         UILabel* _desL = [XRQController createLabelWithFrame:_BV.frame Font:10 Text:model._titleArr[i]];
@@ -106,7 +106,7 @@
         
         [_desL mas_remakeConstraints:^(MASConstraintMaker *make) {
             make.centerX.mas_equalTo(_imgV.mas_centerX);
-            make.top.mas_equalTo(_imgV.mas_bottom).mas_offset(6);
+            make.top.mas_equalTo(_imgV.mas_bottom).mas_offset(7);
         }];
         
         UIButton* temBtn = [XRQController createButtonWithFrame:_BV.frame ImageName:nil Target:self Action:@selector(temBtnClick:) Title:nil];

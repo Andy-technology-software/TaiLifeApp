@@ -135,7 +135,7 @@
     self.dataSource9 = [[NSMutableArray alloc] init];
     
     HomeIndex0Model* model0 = [[HomeIndex0Model alloc] init];
-    model0._imgArr = [[NSMutableArray alloc] initWithObjects:@"https://imgsa.baidu.com/news/q%3D100/sign=623cec76aa8b87d65642af1f37092860/f31fbe096b63f624ba4067448c44ebf81a4ca35c.jpg", nil];
+    model0._imgArr = [[NSMutableArray alloc] initWithObjects:@"https://imgsa.baidu.com/news/q%3D100/sign=1a47f571dc2a60595410e51a1835342d/7aec54e736d12f2ef270b7d844c2d56285356814.jpg",@"https://imgsa.baidu.com/news/q%3D100/sign=1d3c8b40ac86c9170e035639f93c70c6/c995d143ad4bd113fb06d88a51afa40f4afb05ba.jpg", nil];
     model0._noticeArr = [[NSMutableArray alloc] initWithObjects:@"泰生活即将发布，请大家及时关注",@"新楼盘发布，入手吧赶紧",@"泰生活即将发布，请大家及时关注泰生活即将发布，请大家及时关注。泰生活即将发布，请大家及时关注。泰生活即将发布，请大家及时关注", nil];
     [self.dataSource0 addObject:model0];
     
