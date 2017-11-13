@@ -88,10 +88,10 @@ typedef NS_ENUM(NSInteger, TXScrollLabelType) {
 
 + (instancetype)tx_label {
     TXScrollLabel *label = [[TXScrollLabel alloc]init];
-    label.numberOfLines = 0;
+    label.numberOfLines = 1;
     label.font = TXScrollLabelFont;
-    label.textColor = [UIColor whiteColor];
-    label.lineBreakMode = NSLineBreakByWordWrapping;
+    label.textColor = [XRQController colorWithHexString:@"1a1a1a"];
+    label.lineBreakMode = NSLineBreakByTruncatingTail;
     label.textAlignment = NSTextAlignmentCenter;
     return label;
 }

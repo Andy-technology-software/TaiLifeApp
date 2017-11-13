@@ -50,4 +50,5 @@
 
 #define LINECOLOR @"f0f0f0"
 #define BGVIEWCOLOR @"f2f2f2"
+#define REDCOLOR @"f34226"
 #endif

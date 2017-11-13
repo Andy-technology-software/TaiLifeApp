@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface HomeIndex0Model : NSObject
-
+@property(nonatomic,strong) NSMutableArray* _imgArr;
+@property(nonatomic,strong) NSMutableArray* _noticeArr;
+@property(nonatomic,assign) NSString* _id;
+@property(nonatomic,assign) NSString* _img;
+@property(nonatomic,assign) NSString* _type;
+@property(nonatomic,assign) NSString* _url;
 @end

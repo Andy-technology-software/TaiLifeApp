@@ -10,7 +10,7 @@
 #import "TXScrollLabelView.h"
 @interface PMDViewController ()<TXScrollLabelViewDelegate>
 
-@property (weak, nonatomic) TXScrollLabelView *scrollLabelView;
+//@property (weak, nonatomic) TXScrollLabelView *scrollLabelView;
 
 @end
 

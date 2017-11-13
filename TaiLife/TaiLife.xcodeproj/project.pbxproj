@@ -128,6 +128,25 @@
 		F87EC5591FB3E534006AA53D /* HomeIndex0TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F87EC5581FB3E534006AA53D /* HomeIndex0TableViewCell.m */; };
 		F87EC55D1FB3E548006AA53D /* ServiceIndex0TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F87EC55C1FB3E548006AA53D /* ServiceIndex0TableViewCell.m */; };
 		F87EC5611FB3E55C006AA53D /* CommunityIndex0TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F87EC5601FB3E55C006AA53D /* CommunityIndex0TableViewCell.m */; };
+		F8BC98601FB919A300972FCE /* MineIndex2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC985F1FB919A300972FCE /* MineIndex2TableViewCell.m */; };
+		F8BC98631FB919B500972FCE /* MineIndex2Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC98621FB919B500972FCE /* MineIndex2Model.m */; };
+		F8BC98661FB9241300972FCE /* MineIndex3TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC98651FB9241300972FCE /* MineIndex3TableViewCell.m */; };
+		F8BC986C1FB93A8900972FCE /* HomeIndex1Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC986B1FB93A8900972FCE /* HomeIndex1Model.m */; };
+		F8BC986F1FB93AB900972FCE /* HomeIndex2Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC986E1FB93AB900972FCE /* HomeIndex2Model.m */; };
+		F8BC98721FB93AF000972FCE /* HomeIndex1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC98711FB93AF000972FCE /* HomeIndex1TableViewCell.m */; };
+		F8BC98751FB93AF600972FCE /* HomeIndex2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC98741FB93AF600972FCE /* HomeIndex2TableViewCell.m */; };
+		F8BC98781FB943BA00972FCE /* HomeIndex3Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC98771FB943BA00972FCE /* HomeIndex3Model.m */; };
+		F8BC987B1FB943C400972FCE /* HomeIndex4Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC987A1FB943C400972FCE /* HomeIndex4Model.m */; };
+		F8BC987E1FB943FB00972FCE /* HomeIndex3TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC987D1FB943FB00972FCE /* HomeIndex3TableViewCell.m */; };
+		F8BC98811FB94DB600972FCE /* HomeIndex4TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC98801FB94DB600972FCE /* HomeIndex4TableViewCell.m */; };
+		F8BC98841FB9502600972FCE /* HomeIndex5Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC98831FB9502600972FCE /* HomeIndex5Model.m */; };
+		F8BC98871FB9506C00972FCE /* HomeIndex5TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC98861FB9506C00972FCE /* HomeIndex5TableViewCell.m */; };
+		F8BC988A1FB9585000972FCE /* HomeIndex6Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC98891FB9585000972FCE /* HomeIndex6Model.m */; };
+		F8BC988D1FB9587400972FCE /* HomeIndex6TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC988C1FB9587400972FCE /* HomeIndex6TableViewCell.m */; };
+		F8BC98901FB96D3200972FCE /* HomeIndex7Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC988F1FB96D3200972FCE /* HomeIndex7Model.m */; };
+		F8BC98931FB96D9100972FCE /* HomeIndex7TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC98921FB96D9100972FCE /* HomeIndex7TableViewCell.m */; };
+		F8BC98961FB972C000972FCE /* HomeIndex8Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC98951FB972C000972FCE /* HomeIndex8Model.m */; };
+		F8BC98991FB972E800972FCE /* HomeIndex8TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC98981FB972E800972FCE /* HomeIndex8TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -446,6 +465,44 @@
 		F87EC55C1FB3E548006AA53D /* ServiceIndex0TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceIndex0TableViewCell.m; sourceTree = "<group>"; };
 		F87EC55F1FB3E55C006AA53D /* CommunityIndex0TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityIndex0TableViewCell.h; sourceTree = "<group>"; };
 		F87EC5601FB3E55C006AA53D /* CommunityIndex0TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityIndex0TableViewCell.m; sourceTree = "<group>"; };
+		F8BC985E1FB919A300972FCE /* MineIndex2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineIndex2TableViewCell.h; sourceTree = "<group>"; };
+		F8BC985F1FB919A300972FCE /* MineIndex2TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineIndex2TableViewCell.m; sourceTree = "<group>"; };
+		F8BC98611FB919B500972FCE /* MineIndex2Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineIndex2Model.h; sourceTree = "<group>"; };
+		F8BC98621FB919B500972FCE /* MineIndex2Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineIndex2Model.m; sourceTree = "<group>"; };
+		F8BC98641FB9241300972FCE /* MineIndex3TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineIndex3TableViewCell.h; sourceTree = "<group>"; };
+		F8BC98651FB9241300972FCE /* MineIndex3TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineIndex3TableViewCell.m; sourceTree = "<group>"; };
+		F8BC986A1FB93A8900972FCE /* HomeIndex1Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex1Model.h; sourceTree = "<group>"; };
+		F8BC986B1FB93A8900972FCE /* HomeIndex1Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex1Model.m; sourceTree = "<group>"; };
+		F8BC986D1FB93AB900972FCE /* HomeIndex2Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex2Model.h; sourceTree = "<group>"; };
+		F8BC986E1FB93AB900972FCE /* HomeIndex2Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex2Model.m; sourceTree = "<group>"; };
+		F8BC98701FB93AF000972FCE /* HomeIndex1TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex1TableViewCell.h; sourceTree = "<group>"; };
+		F8BC98711FB93AF000972FCE /* HomeIndex1TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex1TableViewCell.m; sourceTree = "<group>"; };
+		F8BC98731FB93AF600972FCE /* HomeIndex2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex2TableViewCell.h; sourceTree = "<group>"; };
+		F8BC98741FB93AF600972FCE /* HomeIndex2TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex2TableViewCell.m; sourceTree = "<group>"; };
+		F8BC98761FB943BA00972FCE /* HomeIndex3Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex3Model.h; sourceTree = "<group>"; };
+		F8BC98771FB943BA00972FCE /* HomeIndex3Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex3Model.m; sourceTree = "<group>"; };
+		F8BC98791FB943C400972FCE /* HomeIndex4Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex4Model.h; sourceTree = "<group>"; };
+		F8BC987A1FB943C400972FCE /* HomeIndex4Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex4Model.m; sourceTree = "<group>"; };
+		F8BC987C1FB943FB00972FCE /* HomeIndex3TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex3TableViewCell.h; sourceTree = "<group>"; };
+		F8BC987D1FB943FB00972FCE /* HomeIndex3TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex3TableViewCell.m; sourceTree = "<group>"; };
+		F8BC987F1FB94DB600972FCE /* HomeIndex4TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex4TableViewCell.h; sourceTree = "<group>"; };
+		F8BC98801FB94DB600972FCE /* HomeIndex4TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex4TableViewCell.m; sourceTree = "<group>"; };
+		F8BC98821FB9502600972FCE /* HomeIndex5Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex5Model.h; sourceTree = "<group>"; };
+		F8BC98831FB9502600972FCE /* HomeIndex5Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex5Model.m; sourceTree = "<group>"; };
+		F8BC98851FB9506C00972FCE /* HomeIndex5TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex5TableViewCell.h; sourceTree = "<group>"; };
+		F8BC98861FB9506C00972FCE /* HomeIndex5TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex5TableViewCell.m; sourceTree = "<group>"; };
+		F8BC98881FB9585000972FCE /* HomeIndex6Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex6Model.h; sourceTree = "<group>"; };
+		F8BC98891FB9585000972FCE /* HomeIndex6Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex6Model.m; sourceTree = "<group>"; };
+		F8BC988B1FB9587400972FCE /* HomeIndex6TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex6TableViewCell.h; sourceTree = "<group>"; };
+		F8BC988C1FB9587400972FCE /* HomeIndex6TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex6TableViewCell.m; sourceTree = "<group>"; };
+		F8BC988E1FB96D3200972FCE /* HomeIndex7Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex7Model.h; sourceTree = "<group>"; };
+		F8BC988F1FB96D3200972FCE /* HomeIndex7Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex7Model.m; sourceTree = "<group>"; };
+		F8BC98911FB96D9100972FCE /* HomeIndex7TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex7TableViewCell.h; sourceTree = "<group>"; };
+		F8BC98921FB96D9100972FCE /* HomeIndex7TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex7TableViewCell.m; sourceTree = "<group>"; };
+		F8BC98941FB972C000972FCE /* HomeIndex8Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex8Model.h; sourceTree = "<group>"; };
+		F8BC98951FB972C000972FCE /* HomeIndex8Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex8Model.m; sourceTree = "<group>"; };
+		F8BC98971FB972E800972FCE /* HomeIndex8TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex8TableViewCell.h; sourceTree = "<group>"; };
+		F8BC98981FB972E800972FCE /* HomeIndex8TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex8TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1037,6 +1094,8 @@
 				218853E71FAFE4EF005CCFC7 /* MineIndexModel.m */,
 				F8257DC51FB5984500FF42B9 /* MineIndex1Model.h */,
 				F8257DC61FB5984500FF42B9 /* MineIndex1Model.m */,
+				F8BC98611FB919B500972FCE /* MineIndex2Model.h */,
+				F8BC98621FB919B500972FCE /* MineIndex2Model.m */,
 			);
 			path = MineIndex;
 			sourceTree = "<group>";
@@ -1048,6 +1107,10 @@
 				218853EA1FAFE4FE005CCFC7 /* MineIndexTableViewCell.m */,
 				F8257DC81FB5989500FF42B9 /* MineIndex1TableViewCell.h */,
 				F8257DC91FB5989500FF42B9 /* MineIndex1TableViewCell.m */,
+				F8BC985E1FB919A300972FCE /* MineIndex2TableViewCell.h */,
+				F8BC985F1FB919A300972FCE /* MineIndex2TableViewCell.m */,
+				F8BC98641FB9241300972FCE /* MineIndex3TableViewCell.h */,
+				F8BC98651FB9241300972FCE /* MineIndex3TableViewCell.m */,
 			);
 			path = MineIndex;
 			sourceTree = "<group>";
@@ -1411,6 +1474,22 @@
 			children = (
 				F87EC5531FB3E516006AA53D /* HomeIndex0Model.h */,
 				F87EC5541FB3E516006AA53D /* HomeIndex0Model.m */,
+				F8BC986A1FB93A8900972FCE /* HomeIndex1Model.h */,
+				F8BC986B1FB93A8900972FCE /* HomeIndex1Model.m */,
+				F8BC986D1FB93AB900972FCE /* HomeIndex2Model.h */,
+				F8BC986E1FB93AB900972FCE /* HomeIndex2Model.m */,
+				F8BC98761FB943BA00972FCE /* HomeIndex3Model.h */,
+				F8BC98771FB943BA00972FCE /* HomeIndex3Model.m */,
+				F8BC98791FB943C400972FCE /* HomeIndex4Model.h */,
+				F8BC987A1FB943C400972FCE /* HomeIndex4Model.m */,
+				F8BC98821FB9502600972FCE /* HomeIndex5Model.h */,
+				F8BC98831FB9502600972FCE /* HomeIndex5Model.m */,
+				F8BC98881FB9585000972FCE /* HomeIndex6Model.h */,
+				F8BC98891FB9585000972FCE /* HomeIndex6Model.m */,
+				F8BC988E1FB96D3200972FCE /* HomeIndex7Model.h */,
+				F8BC988F1FB96D3200972FCE /* HomeIndex7Model.m */,
+				F8BC98941FB972C000972FCE /* HomeIndex8Model.h */,
+				F8BC98951FB972C000972FCE /* HomeIndex8Model.m */,
 			);
 			path = HomeIndex;
 			sourceTree = "<group>";
@@ -1420,6 +1499,22 @@
 			children = (
 				F87EC5571FB3E534006AA53D /* HomeIndex0TableViewCell.h */,
 				F87EC5581FB3E534006AA53D /* HomeIndex0TableViewCell.m */,
+				F8BC98701FB93AF000972FCE /* HomeIndex1TableViewCell.h */,
+				F8BC98711FB93AF000972FCE /* HomeIndex1TableViewCell.m */,
+				F8BC98731FB93AF600972FCE /* HomeIndex2TableViewCell.h */,
+				F8BC98741FB93AF600972FCE /* HomeIndex2TableViewCell.m */,
+				F8BC987C1FB943FB00972FCE /* HomeIndex3TableViewCell.h */,
+				F8BC987D1FB943FB00972FCE /* HomeIndex3TableViewCell.m */,
+				F8BC987F1FB94DB600972FCE /* HomeIndex4TableViewCell.h */,
+				F8BC98801FB94DB600972FCE /* HomeIndex4TableViewCell.m */,
+				F8BC98851FB9506C00972FCE /* HomeIndex5TableViewCell.h */,
+				F8BC98861FB9506C00972FCE /* HomeIndex5TableViewCell.m */,
+				F8BC988B1FB9587400972FCE /* HomeIndex6TableViewCell.h */,
+				F8BC988C1FB9587400972FCE /* HomeIndex6TableViewCell.m */,
+				F8BC98911FB96D9100972FCE /* HomeIndex7TableViewCell.h */,
+				F8BC98921FB96D9100972FCE /* HomeIndex7TableViewCell.m */,
+				F8BC98971FB972E800972FCE /* HomeIndex8TableViewCell.h */,
+				F8BC98981FB972E800972FCE /* HomeIndex8TableViewCell.m */,
 			);
 			path = HomeIndex;
 			sourceTree = "<group>";
@@ -1644,6 +1739,7 @@
 				213F087B1FA998F50066FE14 /* PageControl.m in Sources */,
 				213F095D1FA9A8D10066FE14 /* PayViewController.mm in Sources */,
 				F836C4D41FB284F20052A8E2 /* BussinessmenIndex4Model.m in Sources */,
+				F8BC98781FB943BA00972FCE /* HomeIndex3Model.m in Sources */,
 				213F08731FA998F50066FE14 /* NSObject+YYModel.m in Sources */,
 				213F08201FA998600066FE14 /* UIView+Extension.m in Sources */,
 				213F087C1FA998F50066FE14 /* XRQTextview.m in Sources */,
@@ -1651,34 +1747,45 @@
 				F836C4D21FB284F20052A8E2 /* BussinessmenIndex2Model.m in Sources */,
 				213F08B21FA99D590066FE14 /* BusinessmenIndexViewController.m in Sources */,
 				21F91B901FA9AAC600D8F072 /* RSADataSigner.m in Sources */,
+				F8BC98931FB96D9100972FCE /* HomeIndex7TableViewCell.m in Sources */,
 				F836C4E61FB285950052A8E2 /* BussinessmenIndex2TableViewCell.m in Sources */,
 				F836C4D11FB284F20052A8E2 /* BussinessmenIndex0Model.m in Sources */,
 				213F09581FA9A8B10066FE14 /* WXApiManager.m in Sources */,
 				21F91B8D1FA9AAC600D8F072 /* MD5DataSigner.m in Sources */,
+				F8BC98841FB9502600972FCE /* HomeIndex5Model.m in Sources */,
 				213F08821FA998F50066FE14 /* RDVTabBarItem.m in Sources */,
 				F836C4D31FB284F20052A8E2 /* BussinessmenIndex3Model.m in Sources */,
 				213F08A31FA99B820066FE14 /* requestService.m in Sources */,
 				213F08A51FA99B820066FE14 /* XRQJPush.m in Sources */,
 				213F089F1FA99B820066FE14 /* CDPDatePicker.m in Sources */,
+				F8BC98991FB972E800972FCE /* HomeIndex8TableViewCell.m in Sources */,
 				213F08721FA998F50066FE14 /* BRStringPickerView.m in Sources */,
 				213F086E1FA998F50066FE14 /* BRAddressPickerView.m in Sources */,
 				213F08791FA998F50066FE14 /* AnimatedDotView.m in Sources */,
 				F836C4E51FB285950052A8E2 /* BussinessmenIndex1TableViewCell.m in Sources */,
+				F8BC98901FB96D3200972FCE /* HomeIndex7Model.m in Sources */,
+				F8BC98751FB93AF600972FCE /* HomeIndex2TableViewCell.m in Sources */,
 				219CD9331FAAB35A00A23D93 /* LoginViewController.m in Sources */,
 				21F91B8F1FA9AAC600D8F072 /* openssl_wrapper.m in Sources */,
+				F8BC98721FB93AF000972FCE /* HomeIndex1TableViewCell.m in Sources */,
 				213F08711FA998F50066FE14 /* BRDatePickerView.m in Sources */,
+				F8BC98811FB94DB600972FCE /* HomeIndex4TableViewCell.m in Sources */,
 				F87EC54D1FB3E4E3006AA53D /* CommunityIndex0Model.m in Sources */,
 				213F08741FA998F50066FE14 /* YYClassInfo.m in Sources */,
 				219CD92A1FAAAEC700A23D93 /* TXScrollLabelView.m in Sources */,
+				F8BC986F1FB93AB900972FCE /* HomeIndex2Model.m in Sources */,
 				21E9E3981FAFFA3B00D6B933 /* XRQAddController.m in Sources */,
+				F8BC98871FB9506C00972FCE /* HomeIndex5TableViewCell.m in Sources */,
 				21F91B8E1FA9AAC600D8F072 /* NSDataEx.m in Sources */,
 				213F087D1FA998F50066FE14 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */,
 				213F08781FA998F50066FE14 /* AbstractDotView.m in Sources */,
 				213F08861FA998F50066FE14 /* WJDropdownMenu.m in Sources */,
 				213F08B51FA99D610066FE14 /* CommunityIndexViewController.m in Sources */,
 				213F086D1FA998F50066FE14 /* BRAddressModel.m in Sources */,
+				F8BC98631FB919B500972FCE /* MineIndex2Model.m in Sources */,
 				21F91B881FA9AAC600D8F072 /* AlipayRequestConfig.m in Sources */,
 				213F087A1FA998F50066FE14 /* DotView.m in Sources */,
+				F8BC986C1FB93A8900972FCE /* HomeIndex1Model.m in Sources */,
 				213F087E1FA998F50066FE14 /* NSData+JSONCategoriesData.m in Sources */,
 				21F91B8A1FA9AAC600D8F072 /* base64.m in Sources */,
 				F87EC5591FB3E534006AA53D /* HomeIndex0TableViewCell.m in Sources */,
@@ -1692,6 +1799,7 @@
 				213F08701FA998F50066FE14 /* BaseView.m in Sources */,
 				213F08A61FA99B820066FE14 /* XRQRequestClient.m in Sources */,
 				213F089E1FA99B820066FE14 /* BaseViewController.m in Sources */,
+				F8BC98961FB972C000972FCE /* HomeIndex8Model.m in Sources */,
 				213F09591FA9A8B10066FE14 /* XMLDictionary.m in Sources */,
 				21F91B891FA9AAC600D8F072 /* Order.m in Sources */,
 				F836C4E71FB285950052A8E2 /* BussinessmenIndex3TableViewCell.m in Sources */,
@@ -1700,6 +1808,7 @@
 				F8257DBE1FB5568F00FF42B9 /* Login0TableViewCell.m in Sources */,
 				F8257DCA1FB5989500FF42B9 /* MineIndex1TableViewCell.m in Sources */,
 				F87EC55D1FB3E548006AA53D /* ServiceIndex0TableViewCell.m in Sources */,
+				F8BC98601FB919A300972FCE /* MineIndex2TableViewCell.m in Sources */,
 				213F08A21FA99B820066FE14 /* RegularExpressions.m in Sources */,
 				F8257DC71FB5984500FF42B9 /* MineIndex1Model.m in Sources */,
 				213F087F1FA998F50066FE14 /* NSString+JSONCategoriesString.m in Sources */,
@@ -1714,8 +1823,12 @@
 				213F081F1FA998600066FE14 /* UITextView+placeholder.m in Sources */,
 				F8257DC11FB5569900FF42B9 /* Login1TableViewCell.m in Sources */,
 				213F08761FA998F50066FE14 /* CollectionViewCell.m in Sources */,
+				F8BC987B1FB943C400972FCE /* HomeIndex4Model.m in Sources */,
+				F8BC988A1FB9585000972FCE /* HomeIndex6Model.m in Sources */,
 				213F08A41FA99B820066FE14 /* UIButton+CountDown.m in Sources */,
+				F8BC98661FB9241300972FCE /* MineIndex3TableViewCell.m in Sources */,
 				F8257DBB1FB555FF00FF42B9 /* LoginModel.m in Sources */,
+				F8BC988D1FB9587400972FCE /* HomeIndex6TableViewCell.m in Sources */,
 				213F08BB1FA99D700066FE14 /* HomeIndexViewController.m in Sources */,
 				213F08801FA998F50066FE14 /* RDVTabBar.m in Sources */,
 				219CD92B1FAAAEC700A23D93 /* UIView+TXFrame.m in Sources */,
@@ -1723,6 +1836,7 @@
 				213F073A1FA96C500066FE14 /* main.m in Sources */,
 				21F91B8B1FA9AAC600D8F072 /* DataSigner.m in Sources */,
 				218853EB1FAFE4FE005CCFC7 /* MineIndexTableViewCell.m in Sources */,
+				F8BC987E1FB943FB00972FCE /* HomeIndex3TableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

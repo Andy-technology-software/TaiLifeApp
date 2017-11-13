@@ -12,21 +12,28 @@
 
 #import "MineIndex1Model.h"
 
+#import "MineIndex2Model.h"
+
 #import "MineIndexTableViewCell.h"
 
 #import "MineIndex1TableViewCell.h"
-@interface MineIndexViewController ()<UITableViewDataSource,UITableViewDelegate,MineIndexTableViewCellDelegate,MineIndex1TableViewCellDelegate> {
+
+#import "MineIndex2TableViewCell.h"
+
+#import "MineIndex3TableViewCell.h"
+@interface MineIndexViewController ()<UITableViewDataSource,UITableViewDelegate,MineIndexTableViewCellDelegate,MineIndex1TableViewCellDelegate,MineIndex3TableViewCellDelegate> {
     UITableView* _tableView;
 }
 @property(nonatomic,retain)NSMutableArray* dataSource0;
 @property(nonatomic,retain)NSMutableArray* dataSource1;
+@property(nonatomic,retain)NSMutableArray* dataSource2;
 @end
 
 @implementation MineIndexViewController
 
 #pragma mark - s0开门
 - (void)sendBack0OpenDoor {
-    [(AppDelegate *)[UIApplication sharedApplication].delegate setLoginRoot];
+    
 }
 
 #pragma mark - s0点击头像
@@ -43,6 +50,11 @@
     }else if (2 == item) {
         NSLog(@"我的优惠券");
     }
+}
+
+#pragma mark - 退出登录
+- (void)sendBack3LogOut {
+    [(AppDelegate *)[UIApplication sharedApplication].delegate setLoginRoot];
 }
 
 #pragma mark - 假数据
@@ -62,6 +74,18 @@
     model1._numrr = [[NSMutableArray alloc] initWithObjects:@"10",@"2",@"0",@"1", nil];
     model1._subtArr = [[NSMutableArray alloc] initWithObjects:@"我的消息",@"我的报修",@"我的投诉",@"我的订单", nil];
     [self.dataSource1 addObject:model1];
+    
+    self.dataSource2 = [[NSMutableArray alloc] init];
+    NSArray* imArr = [[NSArray alloc] initWithObjects:@"首页",@"首页",@"首页",@"首页",@"首页",@"首页", nil];
+    NSArray* titArr = [[NSArray alloc] initWithObjects:@"我的租售",@"收件地址",@"关于我们",@"意见建议",@"版本检查",@"积分兑换", nil];
+    for (int i = 0; i < titArr.count; i++) {
+        MineIndex2Model* model2 = [[MineIndex2Model alloc] init];
+        model2._imagename = imArr[i];
+        model2._title = titArr[i];
+        [self.dataSource2 addObject:model2];
+    }
+    
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -82,7 +106,7 @@
 #pragma mark - 初始化tableView
 - (void)createTableView{
     self.automaticallyAdjustsScrollViewInsets = NO;
-    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
+    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height - [XRQAddController tabBarHeight]) style:UITableViewStylePlain];
     _tableView.dataSource = self;
     _tableView.delegate = self;
     UIImageView *tableBg = [[UIImageView alloc] initWithImage:nil];
@@ -96,6 +120,9 @@
 
 #pragma mark - tableView行数
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    if (2 == section) {
+        return self.dataSource2.count;
+    }
     return 1;
 }
 
@@ -115,15 +142,18 @@
         cell0.selectionStyle = UITableViewCellSelectionStyleNone;
         [cell0 configCellWithModel:model];
         return cell0;
+    }else if (2 == indexPath.section) {
+        MineIndex2TableViewCell* cell0 = [[MineIndex2TableViewCell alloc] init];
+        MineIndex2Model *model = [self.dataSource2 objectAtIndex:indexPath.row];
+        cell0.selectionStyle = UITableViewCellSelectionStyleNone;
+        [cell0 configCellWithModel:model];
+        return cell0;
     }
-//    Login2TableViewCell* cell0 = [[Login2TableViewCell alloc] init];
-//    cell0.Login2TableViewCellDelegate = self;
-//    LoginModel *model = nil;
-//    model = [self.dataSource objectAtIndex:indexPath.row];
-//    cell0.selectionStyle = UITableViewCellSelectionStyleNone;
-//    [cell0 configCellWithModel:model];
-//    return cell0;
-    return nil;
+    MineIndex3TableViewCell* cell0 = [[MineIndex3TableViewCell alloc] init];
+    cell0.MineIndex3TableViewCellDelegate = self;
+    cell0.selectionStyle = UITableViewCellSelectionStyleNone;
+    [cell0 configCellWithModel];
+    return cell0;
 }
 
 #pragma mark - tableView行高
@@ -140,19 +170,40 @@
             MineIndex1TableViewCell *cell = (MineIndex1TableViewCell *)sourceCell;
             [cell configCellWithModel:model];
         }];
+    }else if (2 == indexPath.section) {
+        MineIndex2Model* model = self.dataSource2[indexPath.row];
+        return [MineIndex2TableViewCell hyb_heightForIndexPath:indexPath config:^(UITableViewCell *sourceCell) {
+            MineIndex2TableViewCell *cell = (MineIndex2TableViewCell *)sourceCell;
+            [cell configCellWithModel:model];
+        }];
     }
-//    LoginModel* model = self.dataSource[indexPath.row];
-//    return [Login2TableViewCell hyb_heightForIndexPath:indexPath config:^(UITableViewCell *sourceCell) {
-//        Login2TableViewCell *cell = (Login2TableViewCell *)sourceCell;
-//        [cell configCellWithModel:model];
-//    }];
-    
-    return 0;
+    return [MineIndex3TableViewCell hyb_heightForIndexPath:indexPath config:^(UITableViewCell *sourceCell) {
+        MineIndex3TableViewCell *cell = (MineIndex3TableViewCell *)sourceCell;
+        [cell configCellWithModel];
+    }];
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (2 == indexPath.section) {
+        if (0 == indexPath.row) {
+            //我的租售
+        }else if (1 == indexPath.row) {
+            //收件地址
+        }else if (2 == indexPath.row) {
+            //关于我们
+        }else if (3 == indexPath.row) {
+            //意见建议
+        }else if (4 == indexPath.row) {
+            //版本检查
+        }else if (5 == indexPath.row) {
+            //积分兑换
+        }
+    }
 }
 
 #pragma mark - tableview组数
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 2;
+    return 4;
 }
 
 - (void)didReceiveMemoryWarning {
