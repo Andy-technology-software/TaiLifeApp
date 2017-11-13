@@ -28,6 +28,8 @@
 
 #import "HomeIndex8Model.h"
 
+#import "HomeIndex9Model.h"
+
 #import "HomeIndex0TableViewCell.h"
 
 #import "HomeIndex1TableViewCell.h"
@@ -45,7 +47,9 @@
 #import "HomeIndex7TableViewCell.h"
 
 #import "HomeIndex8TableViewCell.h"
-@interface HomeIndexViewController ()<UITableViewDataSource,UITableViewDelegate,HomeIndex0TableViewCellDelegate,HomeIndex3TableViewCellDelegate,HomeIndex5TableViewCellDelegate,HomeIndex6TableViewCellDelegate,HomeIndex7TableViewCellDelegate>{
+
+#import "HomeIndex9TableViewCell.h"
+@interface HomeIndexViewController ()<UITableViewDataSource,UITableViewDelegate,HomeIndex0TableViewCellDelegate,HomeIndex3TableViewCellDelegate,HomeIndex5TableViewCellDelegate,HomeIndex6TableViewCellDelegate,HomeIndex7TableViewCellDelegate,HomeIndex9TableViewCellDelegate>{
     UITableView* _tableView;
 }
 //顶部标题控件
@@ -63,6 +67,7 @@
 @property(nonatomic,retain)NSMutableArray* dataSource6;
 @property(nonatomic,retain)NSMutableArray* dataSource7;
 @property(nonatomic,retain)NSMutableArray* dataSource8;
+@property(nonatomic,retain)NSMutableArray* dataSource9;
 @end
 
 @implementation HomeIndexViewController
@@ -102,6 +107,15 @@
     NSLog(@"s7----%ld",index);
 }
 
+#pragma mark - s9点击商品
+- (void)sendBack9Item:(NSInteger)index {
+    
+}
+
+#pragma mark - s9点击更多
+- (void)s9MoreClick {
+    
+}
 
 - (void)makeData {
     self.dataSource0 = [[NSMutableArray alloc] init];
@@ -113,6 +127,7 @@
     self.dataSource6 = [[NSMutableArray alloc] init];
     self.dataSource7 = [[NSMutableArray alloc] init];
     self.dataSource8 = [[NSMutableArray alloc] init];
+    self.dataSource9 = [[NSMutableArray alloc] init];
     
     HomeIndex0Model* model0 = [[HomeIndex0Model alloc] init];
     model0._imgArr = [[NSMutableArray alloc] initWithObjects:@"https://imgsa.baidu.com/news/q%3D100/sign=623cec76aa8b87d65642af1f37092860/f31fbe096b63f624ba4067448c44ebf81a4ca35c.jpg", nil];
@@ -152,6 +167,13 @@
     HomeIndex8Model* model8 = [[HomeIndex8Model alloc] init];
     model8._img = @"http://b.hiphotos.baidu.com/image/h%3D300/sign=0a65c9f99b45d688bc02b4a494c07dab/4b90f603738da977f08a86e1b951f8198718e357.jpg";
     [self.dataSource8 addObject:model8];
+    
+    HomeIndex9Model* model9 = [[HomeIndex9Model alloc] init];
+    model9._imgArr = [[NSMutableArray alloc] initWithObjects:@"http://b.hiphotos.baidu.com/image/h%3D300/sign=0a65c9f99b45d688bc02b4a494c07dab/4b90f603738da977f08a86e1b951f8198718e357.jpg",@"http://b.hiphotos.baidu.com/image/h%3D300/sign=0a65c9f99b45d688bc02b4a494c07dab/4b90f603738da977f08a86e1b951f8198718e357.jpg",@"http://b.hiphotos.baidu.com/image/h%3D300/sign=0a65c9f99b45d688bc02b4a494c07dab/4b90f603738da977f08a86e1b951f8198718e357.jpg", nil];
+    model9._priceArr = [[NSMutableArray alloc] initWithObjects:@"20.9",@"20.9",@"20.9", nil];
+    model9._titleArr = [[NSMutableArray alloc] initWithObjects:@"发现团购精品发现团购精品发现团购精品",@"发现团购精品发现团购精品发现团购精品",@"发现团购精品发现团购精品发现团购精品", nil];
+    model9._countArr = [[NSMutableArray alloc] initWithObjects:@"100",@"100",@"100", nil];
+    [self.dataSource9 addObject:model9];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -268,6 +290,8 @@
         return self.dataSource6.count;
     }else if (8 == section) {
         return self.dataSource8.count;
+    }else if (9 == section) {
+        return self.dataSource9.count;
     }
     return 0;
 }
@@ -344,6 +368,14 @@
         cell0.selectionStyle = UITableViewCellSelectionStyleNone;
         [cell0 configCellWithModel:model];
         return cell0;
+    }else if (9 == indexPath.section) {
+        //产品
+        HomeIndex9TableViewCell* cell0 = [[HomeIndex9TableViewCell alloc] init];
+        HomeIndex9Model *model = [self.dataSource9 objectAtIndex:indexPath.row];
+        cell0.HomeIndex9TableViewCellDelegate = self;
+        cell0.selectionStyle = UITableViewCellSelectionStyleNone;
+        [cell0 configCellWithModel:model];
+        return cell0;
     }
     return nil;
 }
@@ -405,6 +437,12 @@
             HomeIndex8TableViewCell *cell = (HomeIndex8TableViewCell *)sourceCell;
             [cell configCellWithModel:model];
         }];
+    }else if (9 == indexPath.section) {
+        HomeIndex9Model* model = self.dataSource9[indexPath.row];
+        return [HomeIndex9TableViewCell hyb_heightForIndexPath:indexPath config:^(UITableViewCell *sourceCell) {
+            HomeIndex9TableViewCell *cell = (HomeIndex9TableViewCell *)sourceCell;
+            [cell configCellWithModel:model];
+        }];
     }
     return 0;
     
@@ -412,7 +450,7 @@
 
 #pragma mark - tableview组数
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 9;
+    return 10;
 }
 
 

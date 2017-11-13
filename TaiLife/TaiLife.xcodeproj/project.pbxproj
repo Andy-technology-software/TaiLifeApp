@@ -147,6 +147,8 @@
 		F8BC98931FB96D9100972FCE /* HomeIndex7TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC98921FB96D9100972FCE /* HomeIndex7TableViewCell.m */; };
 		F8BC98961FB972C000972FCE /* HomeIndex8Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC98951FB972C000972FCE /* HomeIndex8Model.m */; };
 		F8BC98991FB972E800972FCE /* HomeIndex8TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC98981FB972E800972FCE /* HomeIndex8TableViewCell.m */; };
+		F8BC989C1FB974BB00972FCE /* HomeIndex9Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC989B1FB974BB00972FCE /* HomeIndex9Model.m */; };
+		F8BC989F1FB974E500972FCE /* HomeIndex9TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC989E1FB974E500972FCE /* HomeIndex9TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -503,6 +505,10 @@
 		F8BC98951FB972C000972FCE /* HomeIndex8Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex8Model.m; sourceTree = "<group>"; };
 		F8BC98971FB972E800972FCE /* HomeIndex8TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex8TableViewCell.h; sourceTree = "<group>"; };
 		F8BC98981FB972E800972FCE /* HomeIndex8TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex8TableViewCell.m; sourceTree = "<group>"; };
+		F8BC989A1FB974BB00972FCE /* HomeIndex9Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex9Model.h; sourceTree = "<group>"; };
+		F8BC989B1FB974BB00972FCE /* HomeIndex9Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex9Model.m; sourceTree = "<group>"; };
+		F8BC989D1FB974E500972FCE /* HomeIndex9TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeIndex9TableViewCell.h; sourceTree = "<group>"; };
+		F8BC989E1FB974E500972FCE /* HomeIndex9TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeIndex9TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1490,6 +1496,8 @@
 				F8BC988F1FB96D3200972FCE /* HomeIndex7Model.m */,
 				F8BC98941FB972C000972FCE /* HomeIndex8Model.h */,
 				F8BC98951FB972C000972FCE /* HomeIndex8Model.m */,
+				F8BC989A1FB974BB00972FCE /* HomeIndex9Model.h */,
+				F8BC989B1FB974BB00972FCE /* HomeIndex9Model.m */,
 			);
 			path = HomeIndex;
 			sourceTree = "<group>";
@@ -1515,6 +1523,8 @@
 				F8BC98921FB96D9100972FCE /* HomeIndex7TableViewCell.m */,
 				F8BC98971FB972E800972FCE /* HomeIndex8TableViewCell.h */,
 				F8BC98981FB972E800972FCE /* HomeIndex8TableViewCell.m */,
+				F8BC989D1FB974E500972FCE /* HomeIndex9TableViewCell.h */,
+				F8BC989E1FB974E500972FCE /* HomeIndex9TableViewCell.m */,
 			);
 			path = HomeIndex;
 			sourceTree = "<group>";
@@ -1783,6 +1793,7 @@
 				213F08B51FA99D610066FE14 /* CommunityIndexViewController.m in Sources */,
 				213F086D1FA998F50066FE14 /* BRAddressModel.m in Sources */,
 				F8BC98631FB919B500972FCE /* MineIndex2Model.m in Sources */,
+				F8BC989C1FB974BB00972FCE /* HomeIndex9Model.m in Sources */,
 				21F91B881FA9AAC600D8F072 /* AlipayRequestConfig.m in Sources */,
 				213F087A1FA998F50066FE14 /* DotView.m in Sources */,
 				F8BC986C1FB93A8900972FCE /* HomeIndex1Model.m in Sources */,
@@ -1790,6 +1801,7 @@
 				21F91B8A1FA9AAC600D8F072 /* base64.m in Sources */,
 				F87EC5591FB3E534006AA53D /* HomeIndex0TableViewCell.m in Sources */,
 				F87EC5551FB3E516006AA53D /* HomeIndex0Model.m in Sources */,
+				F8BC989F1FB974E500972FCE /* HomeIndex9TableViewCell.m in Sources */,
 				213F09561FA9A8B10066FE14 /* MXWechatPayHandler.m in Sources */,
 				213F086C1FA998F50066FE14 /* LHRatingView.m in Sources */,
 				213F08771FA998F50066FE14 /* CycleScrollView.m in Sources */,
