@@ -160,11 +160,26 @@
             lView.backgroundColor = [XRQController colorWithHexString:BGVIEWCOLOR];
             [self.subView addSubview:lView];
         }
+        
+        UIButton* ietmBtn = [XRQController createButtonWithFrame:topView.frame ImageName:nil Target:self Action:@selector(ietmBtnClick1:) Title:nil];
+        ietmBtn.tag = 200 + i;
+        [topView addSubview:ietmBtn];
+        
+        [ietmBtn mas_remakeConstraints:^(MASConstraintMaker *make) {
+            make.right.mas_equalTo(0);
+            make.top.mas_equalTo(0);
+            make.left.mas_equalTo(0);
+            make.bottom.mas_equalTo(0);
+        }];
     }
 }
 
 - (void)ietmBtnClick:(UIButton*)btn {
     [self.MineIndex1TableViewCellDelegate sendBack1ItemIndex:btn.tag - 100];
+}
+
+-  (void)ietmBtnClick1:(UIButton*)btn {
+    [self.MineIndex1TableViewCellDelegate sendBack1ItemIndex1:btn.tag - 200];
 }
 
 @end

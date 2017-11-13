@@ -52,6 +52,18 @@
     }
 }
 
+- (void)sendBack1ItemIndex1:(NSInteger)item {
+    if (0 == item) {
+        NSLog(@"我的消息");
+    }else if (1 == item) {
+        NSLog(@"我的保修");
+    }else if (2 == item) {
+        NSLog(@"我的投诉");
+    }else if (3 == item) {
+        NSLog(@"我的订单");
+    }
+}
+
 #pragma mark - 退出登录
 - (void)sendBack3LogOut {
     [(AppDelegate *)[UIApplication sharedApplication].delegate setLoginRoot];
@@ -116,6 +128,16 @@
     _tableView.showsVerticalScrollIndicator = NO;
     [self.view addSubview:_tableView];
     
+    _tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+        // 进入刷新状态后会自动调用这个block
+        [self headRefresh];
+    }];
+    
+}
+#pragma mark - 下拉刷新
+- (void)headRefresh{
+    //    [self getImgs];
+    [_tableView.mj_header endRefreshing];
 }
 
 #pragma mark - tableView行数

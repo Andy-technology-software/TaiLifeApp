@@ -10,6 +10,7 @@
 @class MineIndex1Model;
 @protocol MineIndex1TableViewCellDelegate <NSObject>
 - (void)sendBack1ItemIndex:(NSInteger)item;
+- (void)sendBack1ItemIndex1:(NSInteger)item;
 
 @end
 @interface MineIndex1TableViewCell : UITableViewCell

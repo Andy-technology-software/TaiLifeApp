@@ -72,10 +72,10 @@
     
     self.dataSource4 = [[NSMutableArray alloc] init];
     BussinessmenIndex4Model* model40 = [[BussinessmenIndex4Model alloc] init];
-    model40._imgArr = [[NSMutableArray alloc] initWithObjects:@"http://b.hiphotos.baidu.com/image/h%3D300/sign=0a65c9f99b45d688bc02b4a494c07dab/4b90f603738da977f08a86e1b951f8198718e357.jpg",@"http://b.hiphotos.baidu.com/image/h%3D300/sign=0a65c9f99b45d688bc02b4a494c07dab/4b90f603738da977f08a86e1b951f8198718e357.jpg",@"http://b.hiphotos.baidu.com/image/h%3D300/sign=0a65c9f99b45d688bc02b4a494c07dab/4b90f603738da977f08a86e1b951f8198718e357.jpg", nil];
-    model40._priceArr = [[NSMutableArray alloc] initWithObjects:@"20.9",@"20.9",@"20.9", nil];
-    model40._titleArr = [[NSMutableArray alloc] initWithObjects:@"发现团购精品发现团购精品发现团购精品",@"发现团购精品发现团购精品发现团购精品",@"发现团购精品发现团购精品发现团购精品", nil];
-    model40._countArr = [[NSMutableArray alloc] initWithObjects:@"100",@"100",@"100", nil];
+    model40._imgArr = [[NSMutableArray alloc] initWithObjects:@"http://b.hiphotos.baidu.com/image/h%3D300/sign=0a65c9f99b45d688bc02b4a494c07dab/4b90f603738da977f08a86e1b951f8198718e357.jpg",@"http://b.hiphotos.baidu.com/image/h%3D300/sign=0a65c9f99b45d688bc02b4a494c07dab/4b90f603738da977f08a86e1b951f8198718e357.jpg",@"http://b.hiphotos.baidu.com/image/h%3D300/sign=0a65c9f99b45d688bc02b4a494c07dab/4b90f603738da977f08a86e1b951f8198718e357.jpg",@"http://b.hiphotos.baidu.com/image/h%3D300/sign=0a65c9f99b45d688bc02b4a494c07dab/4b90f603738da977f08a86e1b951f8198718e357.jpg", nil];
+    model40._priceArr = [[NSMutableArray alloc] initWithObjects:@"20.9",@"20.9",@"20.9",@"20.9", nil];
+    model40._titleArr = [[NSMutableArray alloc] initWithObjects:@"发现团购精品发现团购精品发现团购精品",@"发现团购精品发现团购精品发现团购精品",@"发现团购精品发现团购精品发现团购精品",@"发现团购精品发现团购精品发现团购精品", nil];
+    model40._countArr = [[NSMutableArray alloc] initWithObjects:@"100",@"100",@"100",@"100", nil];
     [self.dataSource4 addObject:model40];
 }
 

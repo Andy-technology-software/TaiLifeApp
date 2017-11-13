@@ -49,7 +49,7 @@
 #import "HomeIndex8TableViewCell.h"
 
 #import "HomeIndex9TableViewCell.h"
-@interface HomeIndexViewController ()<UITableViewDataSource,UITableViewDelegate,HomeIndex0TableViewCellDelegate,HomeIndex3TableViewCellDelegate,HomeIndex5TableViewCellDelegate,HomeIndex6TableViewCellDelegate,HomeIndex7TableViewCellDelegate,HomeIndex9TableViewCellDelegate>{
+@interface HomeIndexViewController ()<UITableViewDataSource,UITableViewDelegate,HomeIndex0TableViewCellDelegate,HomeIndex1TableViewCellDelegate,HomeIndex3TableViewCellDelegate,HomeIndex5TableViewCellDelegate,HomeIndex6TableViewCellDelegate,HomeIndex7TableViewCellDelegate,HomeIndex9TableViewCellDelegate>{
     UITableView* _tableView;
 }
 //顶部标题控件
@@ -75,6 +75,11 @@
 #pragma mark - s0点击广告
 - (void)didselectADPic:(NSInteger)index {
     
+}
+
+#pragma mark - s1点击响应
+- (void)sendBackS1Index:(NSInteger)index {
+    NSLog(@"S1---%ld",index);
 }
 
 #pragma mark - s3点击响应
@@ -133,6 +138,21 @@
     model0._imgArr = [[NSMutableArray alloc] initWithObjects:@"https://imgsa.baidu.com/news/q%3D100/sign=623cec76aa8b87d65642af1f37092860/f31fbe096b63f624ba4067448c44ebf81a4ca35c.jpg", nil];
     model0._noticeArr = [[NSMutableArray alloc] initWithObjects:@"泰生活即将发布，请大家及时关注",@"新楼盘发布，入手吧赶紧",@"泰生活即将发布，请大家及时关注泰生活即将发布，请大家及时关注。泰生活即将发布，请大家及时关注。泰生活即将发布，请大家及时关注", nil];
     [self.dataSource0 addObject:model0];
+    
+    HomeIndex1Model* model1 = [[HomeIndex1Model alloc] init];
+    model1._imgArr = [[NSMutableArray alloc] initWithObjects:@"https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1177166395,4175613967&fm=173&s=2387F5045ED39B90E20EF9D3030010B9&w=218&h=146&img.JPG",
+                      @"https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1177166395,4175613967&fm=173&s=2387F5045ED39B90E20EF9D3030010B9&w=218&h=146&img.JPG",
+                      @"https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1177166395,4175613967&fm=173&s=2387F5045ED39B90E20EF9D3030010B9&w=218&h=146&img.JPG",
+                      @"https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1177166395,4175613967&fm=173&s=2387F5045ED39B90E20EF9D3030010B9&w=218&h=146&img.JPG",
+                      @"https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1177166395,4175613967&fm=173&s=2387F5045ED39B90E20EF9D3030010B9&w=218&h=146&img.JPG",
+                      @"https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1177166395,4175613967&fm=173&s=2387F5045ED39B90E20EF9D3030010B9&w=218&h=146&img.JPG",
+                      @"https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1177166395,4175613967&fm=173&s=2387F5045ED39B90E20EF9D3030010B9&w=218&h=146&img.JPG",
+                      @"https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1177166395,4175613967&fm=173&s=2387F5045ED39B90E20EF9D3030010B9&w=218&h=146&img.JPG",
+                      @"https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1177166395,4175613967&fm=173&s=2387F5045ED39B90E20EF9D3030010B9&w=218&h=146&img.JPG",
+                      @"https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1177166395,4175613967&fm=173&s=2387F5045ED39B90E20EF9D3030010B9&w=218&h=146&img.JPG",
+                      nil];
+    model1._titleArr = [[NSMutableArray alloc] initWithObjects:@"物业通知",@"社区活动",@"故障报修",@"物业账单",@"二手房产",@"新房查看",@"近期优惠",@"小区保安",@"小区保洁",@"小区大树", nil];
+    [self.dataSource1 addObject:model1];
 
     HomeIndex2Model* model2 = [[HomeIndex2Model alloc] init];
     model2._title = @"您有一条新的消息通知";
@@ -276,6 +296,8 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     if (0 == section) {
         return self.dataSource0.count;
+    }else if (1 == section) {
+        return self.dataSource1.count;
     }else if (2 == section) {
         return self.dataSource2.count;
     }else if (3 == section) {
@@ -310,7 +332,7 @@
     }else if (1 == indexPath.section) {
         //物业通知
         HomeIndex1TableViewCell* cell0 = [[HomeIndex1TableViewCell alloc] init];
-//        cell0.BussinessmenIndex1TableViewCellDelegate = self;
+        cell0.HomeIndex1TableViewCellDelegate = self;
         HomeIndex1Model* model = self.dataSource1[indexPath.row];
         cell0.selectionStyle = UITableViewCellSelectionStyleNone;
         [cell0 configCellWithModel:model];
@@ -389,12 +411,11 @@
             [cell configCellWithModel:model];
         }];
     }else if (1 == indexPath.section) {
-//        return [BussinessmenIndex1TableViewCell hyb_heightForIndexPath:indexPath config:^(UITableViewCell *sourceCell) {
-//            BussinessmenIndex1TableViewCell *cell = (BussinessmenIndex1TableViewCell *)sourceCell;
-//            [cell configCellWithModel];
-//        }];
-        
-        return 0;
+        HomeIndex1Model* model = self.dataSource1[indexPath.row];
+        return [HomeIndex1TableViewCell hyb_heightForIndexPath:indexPath config:^(UITableViewCell *sourceCell) {
+            HomeIndex1TableViewCell *cell = (HomeIndex1TableViewCell *)sourceCell;
+            [cell configCellWithModel:model];
+        }];
     }else if (2 == indexPath.section) {
         HomeIndex2Model* model = self.dataSource2[indexPath.row];
         return [HomeIndex2TableViewCell hyb_heightForIndexPath:indexPath config:^(UITableViewCell *sourceCell) {

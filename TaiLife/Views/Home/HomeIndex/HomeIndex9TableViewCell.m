@@ -16,7 +16,6 @@
 @property (nonatomic,strong) UIView* bgView;
 
 @property (nonatomic,strong) UILabel* title0;
-@property (nonatomic,strong) UILabel* title1;
 @property (nonatomic,strong) UILabel* title2;
 
 @property (nonatomic,strong) UIImageView* moreIV;
@@ -67,17 +66,6 @@
         make.height.mas_offset(1);
     }];
     
-    self.title1 = [XRQController createLabelWithFrame:self.contentView.frame Font:12 Text:@"舒适生活从现在开始"];
-    self.title1.textAlignment = NSTextAlignmentCenter;
-    self.title1.textColor = [XRQController colorWithHexString:@"969696"];
-    [self.contentView addSubview:self.title1];
-    
-    [self.title1 mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(self.title0.mas_bottom).mas_offset(6);
-        make.centerX.mas_equalTo(self.contentView.mas_centerX);
-    }];
-    
-    
 }
 
 - (void)configCellWithModel:(HomeIndex9Model *)model {
@@ -90,7 +78,7 @@
     [self.bgView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(0);
         make.right.mas_equalTo(0);
-        make.top.mas_equalTo(self.title1.mas_bottom).mas_offset(12);
+        make.top.mas_equalTo(self.title0.mas_bottom).mas_offset(20);
         make.height.mas_offset((viewWidth * 359 / 294 + 10)*ceil((float)model._imgArr.count/2));
     }];
     

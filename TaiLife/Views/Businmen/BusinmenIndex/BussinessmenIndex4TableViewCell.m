@@ -77,6 +77,12 @@
         make.centerX.mas_equalTo(self.contentView.mas_centerX);
     }];
     
+    
+}
+
+- (void)configCellWithModel:(BussinessmenIndex4Model *)model {
+    float viewWidth = ([XRQController getScreenWidth] - 40) / 3;
+    
     self.bgView = [XRQController viewWithFrame:self.contentView.frame];
     self.bgView.backgroundColor = [UIColor whiteColor];
     [self.contentView addSubview:self.bgView];
@@ -85,7 +91,7 @@
         make.left.mas_equalTo(0);
         make.right.mas_equalTo(0);
         make.top.mas_equalTo(self.title1.mas_bottom).mas_offset(12);
-        make.height.mas_offset([XRQController getScreenWidth] * 25 / 64);
+        make.height.mas_offset((viewWidth * 25 / 19 + 10)*ceil((float)model._imgArr.count/3));
     }];
     
     self.moreIV = [XRQController createImageViewWithFrame:self.contentView.frame ImageName:@""];
@@ -121,12 +127,9 @@
     
     self.hyb_lastViewInCell = self.title2;
     self.hyb_bottomOffsetToCell = 5;
-}
-
-- (void)configCellWithModel:(BussinessmenIndex4Model *)model {
-    float viewWidth = ([XRQController getScreenWidth] - 40) / 3;
+    
     for (int i = 0; i < model._imgArr.count; i++) {
-        UIView* _BV = [XRQController viewWithFrame:CGRectMake((viewWidth + 10) * i + 10, 0, viewWidth, [XRQController getScreenWidth] * 25 / 64)];
+        UIView* _BV = [XRQController viewWithFrame:CGRectMake((viewWidth + 10) * (i % 3) + 10, i / 3 * (viewWidth * 25 / 19 + 10), viewWidth, (viewWidth * 25 / 19 + 10))];
         _BV.layer.cornerRadius = 6;
         _BV.layer.masksToBounds = YES;
         [_BV setContentMode:UIViewContentModeScaleAspectFill];
@@ -135,7 +138,7 @@
         _BV.layer.borderColor = [[UIColor grayColor] CGColor];
         [self.bgView addSubview:_BV];
         
-        UIImageView* _imageV = [XRQController createImageViewWithFrame:CGRectMake(0, 0, viewWidth, viewWidth * 176 / 187) ImageName:nil];
+        UIImageView* _imageV = [XRQController createImageViewWithFrame:CGRectMake(0, 0, viewWidth, viewWidth * 176 / 189) ImageName:nil];
         [_imageV sd_setImageWithURL:[NSURL URLWithString:model._imgArr[i]] placeholderImage:[UIImage imageNamed:@""]];
         [_BV addSubview:_imageV];
         
@@ -157,7 +160,7 @@
         countL.lineBreakMode = NSLineBreakByTruncatingTail;
         [_BV addSubview:countL];
         
-        UIButton* clickB = [XRQController createButtonWithFrame:CGRectMake(_imageV.frame.origin.x, 0, _imageV.frame.size.width , [XRQController getScreenWidth] * 25 / 64) ImageName:nil Target:self Action:@selector(clickBClick:) Title:nil];
+        UIButton* clickB = [XRQController createButtonWithFrame:CGRectMake(_imageV.frame.origin.x, 0, _imageV.frame.size.width , (viewWidth * 25 / 19 + 10)) ImageName:nil Target:self Action:@selector(clickBClick:) Title:nil];
         clickB.tag = 100 + i;
         [self.bgView addSubview:clickB];
     }
