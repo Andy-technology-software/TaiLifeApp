@@ -9,11 +9,11 @@
 #import "HomeIndex1TableViewCell.h"
 
 #import "HomeIndex1Model.h"
-@interface HomeIndex1TableViewCell()
+@interface HomeIndex1TableViewCell()<UIScrollViewDelegate>
 @property (nonatomic,strong) UIView* bgView;
 
 @property(nonatomic,strong)UIScrollView * scrollView;
-
+@property(nonatomic,strong)UIPageControl * _pageControl;
 @end
 @implementation HomeIndex1TableViewCell
 
@@ -62,11 +62,25 @@
     self.scrollView.alwaysBounceHorizontal = YES;
     self.scrollView.alwaysBounceVertical = NO;
     self.scrollView.scrollEnabled = YES;
+    self.scrollView.delegate = self;
     self.scrollView.showsHorizontalScrollIndicator = NO;
     self.scrollView.showsVerticalScrollIndicator = NO;
     self.scrollView.indicatorStyle = UIScrollViewIndicatorStyleWhite;
     self.scrollView.decelerationRate = 0.5;
     [self.bgView addSubview: self.scrollView];
+    
+    self._pageControl = [[UIPageControl alloc] init];
+    self._pageControl.frame = self.bgView.frame;
+    self._pageControl.numberOfPages = ceil((float)model._imgArr.count/5);
+    self._pageControl.currentPage = 0;
+    self._pageControl.pageIndicatorTintColor = [UIColor redColor];
+    self._pageControl.currentPageIndicatorTintColor = [UIColor blueColor];
+    [self.bgView addSubview:self._pageControl];
+    
+    [self._pageControl mas_remakeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.mas_equalTo(self.bgView.mas_centerX);
+        make.top.mas_equalTo(self.scrollView.mas_bottom).mas_offset(6);
+    }];
     
     float viewWidth = bgW/5;
     float viewHeight = bgH;
@@ -106,6 +120,11 @@
             make.bottom.mas_equalTo(0);
         }];
     }
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    int page = scrollView.contentOffset.x / scrollView.frame.size.width;
+    self._pageControl.currentPage = page;
 }
 
 
